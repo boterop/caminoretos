@@ -49,109 +49,74 @@ Note: Algunas preposiciones para tener en cuenta:
     • En razón de
     • Respecto de… Con respecto a#
 DIVPREGUNTAS
-9- Evitemos el “nivelismo” y el “interiorismo”. Dice doña Lucila González de Chaves en su libro Funcionalidad del idioma (1992: 122): “La expresión ‘al interior de’ es tan incorrecta, innecesaria, extranjera e inelegante como aquella ‘a nivel de’. 
-
+Evitemos el “nivelismo” y el “interiorismo”. Dice doña Lucila González de Chaves en su libro Funcionalidad del idioma (1992: 122): “La expresión ‘al interior de’ es tan incorrecta, innecesaria, extranjera e inelegante como aquella ‘a nivel de’.#
 Example: Esto es lo que está ocurriendo al interior de la Asamblea Nacional Constituyente.
-
-Correction: Esto es lo que está ocurriendo en la Asamblea Nacional Constituyente
-
-Example: Eso se ha dicho al interior de la Facultad.
-
-Correction: Eso se ha dicho en la Facultad. 
-
-
-10- Evitemos, en lo posible, la construcción de oraciones muy largas, no solo por lo compleja que se hace su comprensión, sino también por los riesgos de que aparezcan problemas de concordancia gramatical y frases sin resolución. 
-
-Example: Si miramos la cantidad de dificultades que hemos comprobado en los grados que han precedido  a noveno y que por lo menos han  incitado  al estudiante a realizar una producción de textos argumentativos, ya que a estas instancias debe de evidenciar cierta actitud con el manejo del discurso donde la relación entre contenido y forma brinda la posibilidad de construir una totalidad conceptual que constituye la base de su pensamiento.
-
-Nos damos cuenta de que la expresión señalada en letras cursivas no tuvo resolución; todo lo que vino luego le agregaba condiciones y explicaciones, pero en ningún momento apareció la cláusula que la cerrara. Además, por la misma extensión se advierten ciertos descuidos que se han anotado en retos anteriores. 
-
-Correction: Si miramos la cantidad de dificultades que hemos comprobado en los grados que han precedido  a noveno y que por lo menos han  incitado  al estudiante a realizar una producción de textos argumentativos, tendríamos que replantear nuestra intervención en el aula. Esto se debe a que en estas instancias el estudiante debe evidenciar cierta actitud hacia el manejo del discurso, desde la relación entre contenido y forma. De esta manera, accede a la posibilidad de construir una totalidad conceptual que constituya la base de su pensamiento.
-
-11- Evitemos ciertas construcciones de gerundio.
-
-Example: Realicé un profundo análisis de la causa obteniendo una información seria.
-Conviene evitar el gerundio cuando la acción que él indica es posterior a la del verbo principal (González, 2005: 35). 
-
-Correction: Realicé un profundo análisis de la causa y obtuve una información seria
+Eso se ha dicho al interior de la Facultad.#
+Correction: Esto es lo que está ocurriendo en la Asamblea Nacional Constituyente.
+Eso se ha dicho en la Facultad.#
+Note: null#
+DIVPREGUNTAS
+Evitemos, en lo posible, la construcción de oraciones muy largas, no solo por lo compleja que se hace su comprensión, sino también por los riesgos de que aparezcan problemas de concordancia gramatical y frases sin resolución.#
+Example: Si miramos la cantidad de dificultades que hemos comprobado en los grados que han precedido  a noveno y que por lo menos han  incitado  al estudiante a realizar una producción de textos argumentativos, ya que a estas instancias debe de evidenciar cierta actitud con el manejo del discurso donde la relación entre contenido y forma brinda la posibilidad de construir una totalidad conceptual que constituye la base de su pensamiento.#
+Correction: Si miramos la cantidad de dificultades que hemos comprobado en los grados que han precedido  a noveno y que por lo menos han  incitado  al estudiante a realizar una producción de textos argumentativos, tendríamos que replantear nuestra intervención en el aula. Esto se debe a que en estas instancias el estudiante debe evidenciar cierta actitud hacia el manejo del discurso, desde la relación entre contenido y forma. De esta manera, accede a la posibilidad de construir una totalidad conceptual que constituya la base de su pensamiento.#
+Note: Nos damos cuenta de que la expresión señalada en letras cursivas no tuvo resolución; todo lo que vino luego le agregaba condiciones y explicaciones, pero en ningún momento apareció la cláusula que la cerrara. Además, por la misma extensión se advierten ciertos descuidos que se han anotado en retos anteriores.#
+DIVPREGUNTAS
+Evitemos ciertas construcciones de gerundio.#
+Example: Realicé un profundo análisis de la causa obteniendo una información seria.#
+Correction: Realicé un profundo análisis de la causa y obtuve una información seria.#
+Note: Conviene evitar el gerundio cuando la acción que él indica es posterior a la del verbo principal (González, 2005: 35).
 OTROS EJEMPLOS
-
-Example: Anómala constitución del yo y el superyó, estando este último localizado…
-
-Aquí el gerundio fue empleado como conector de dos ideas: la que se refiere a la anomalía y la de la localización. 
-
-Correction: Anómala constitución del yo y el superyó; este último está localizado en…
-
-Example: En este caso el maestro debe detener la explicación, siendo esta la única alternativa… 
-
-Correction: En este caso el maestro debe detener la explicación; esta es la única alternativa…
-
-Example: Se necesitan secretarias sabiendo inglés.
-
+.
+Ejemplo: Anómala constitución del yo y el superyó, estando este último localizado.
+.
+Aquí el gerundio fue empleado como conector de dos ideas: la que se refiere a la anomalía y la de la localización.
+.
+Corrección: Anómala constitución del yo y el superyó; este último está localizado en.
+.
+Ejemplo: En este caso el maestro debe detener la explicación, siendo esta la única alternativa.
+.
+Corrección: En este caso el maestro debe detener la explicación; esta es la única alternativa.
+.
+Ejemplo: Se necesitan secretarias sabiendo inglés.
+.
 En este caso, el gerundio toma lugar incorrectamente de una frase adjetiva. 
-
-Correction: Se necesitan secretarias que sepan inglés.
-
+.
+Corrección: Se necesitan secretarias que sepan inglés.
+.
 Example: Se trata de una propuesta formulada por Yves Chevallard desde el campo de las matemáticas haciendo referencia a la distancia existente entre el saber erudito y saber enseñar.
-Otro caso de gerundio utilizado inadecuadamente como adjetivo
-
-Correction: Se trata de una propuesta formulada por Yves Chevallard desde el campo de las matemáticas que hace referencia a la distancia existente entre el saber erudito y saber enseñar.
-
-
-12- Evitemos marcar coma (o punto y coma) entre sujeto y predicado. 
-
-Example: Las estanterías del rincón, estaban perfectamente organizadas. 
-Correction: Las estanterías del rincón estaban perfectamente organizadas.
-
- 
-13- Evitemos el encadenamiento de causas en una misma oración (…porque...ya que…debido a…puesto que). 
-
-Example: Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot, debido a la presentación de una estructura, ya quela intención comunicativa de estos textos es defender una opinión.
-
-Correction: Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot. Esto se debe ala presentación de una estructura, en la que se advierte la intención comunicativa de defender una opinión.
-
-
-14- Tengamos en cuenta la aplicación de las reglas generales de acentuación.
-
-Example: partire hoy mismo.
-Correction: partiré hoy mismo
-
-TIPO
-ACENTO EN
-TILDE
-EJEMPLO
-Agudas
-Última sílaba
-Cuando terminan en VOCAL, N, S.
-Vivirás, gorrión, partiré, inglés
-Graves
-Penúltima sílaba
-Cuando NO terminan en VOCAL, N, S.
-Lápiz, ángel, álbum, Héctor
-Esdrújulas
-Antepenúltima sílaba
-TODAS llevan
-Plátano, sílaba, música 
-Sobreesdrújulas
-Más allá de la antepenúltima sílaba
-TODAS LLEVAN
-Dígamelo, llévaselo
-Hiatos
-Vocal cerrada ( I – U )
-Siempre llevan sin importar las reglas anteriores
-Biología, país, baúl, búho
-
-
-15- Ocupémonos de la tilde en parejas o trilogías prosódicas. Se trata de grupos de palabras iguales en su escritura, pero diferentes en su pronunciación y significado, según el lugar en el que se ubique el acento. 
-
-Example: suelo ser una persona muy practica.
-Correction: suelo ser una persona muy práctica
-
-
-
-PALABRA		CLASIFICACIÓN			FORMA
+.
+Otro caso de gerundio utilizado inadecuadamente como adjetivo.
+.
+Corrección: Se trata de una propuesta formulada por Yves Chevallard desde el campo de las matemáticas que hace referencia a la distancia existente entre el saber erudito y saber enseñar.#
+DIVPREGUNTAS
+Evitemos marcar coma (o punto y coma) entre sujeto y predicado.#
+Example: Las estanterías del rincón, estaban perfectamente organizadas.#
+Correction: Las estanterías del rincón estaban perfectamente organizadas.#
+Note: null#
+DIVPREGUNTAS
+Evitemos el encadenamiento de causas en una misma oración (…porque...ya que…debido a…puesto que).#
+Example: Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot, debido a la presentación de una estructura, ya quela intención comunicativa de estos textos es defender una opinión.#
+Correction: Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot. Esto se debe ala presentación de una estructura, en la que se advierte la intención comunicativa de defender una opinión.#
+Note: null#
+DIVPREGUNTAS
+Tengamos en cuenta la aplicación de las reglas generales de acentuación.#
+Example: partire hoy mismo.#
+Correction: partiré hoy mismo.#
+Note:
+TIPO / ACENTO EN / TILDE / EJEMPLO
+Agudas / Última sílaba / Cuando terminan en vocal, n, s / Vivirás, gorrión
+Graves / Penúltima sílaba / Cuando NO terminan en vocal, n, s / Lápiz, ángel
+Esdrújulas / Antepenúltima sílaba / TODAS llevan /  Plátano, música
+Sobreesdrújulas / Trasantepenúltima sílaba / TODAS llevan / Dígamelo, llévaselo
+Hiatos / Cuando dos vocales fuertes estén juntas (u, i) / TODAS LLEVAN / País, baúl#
+DIVPREGUNTAS
+Ocupémonos de la tilde en parejas o trilogías prosódicas. Se trata de grupos de palabras iguales en su escritura, pero diferentes en su pronunciación y significado, según el lugar en el que se ubique el acento.#
+Example: suelo ser una persona muy practica.#
+Correction: suelo ser una persona muy práctica.#
+Note:.
+PALABRA 		CLASIFICACIÓN			FORMA
 Práctico		Esdrújula				Adjetivo calificativo
-Practico		Grave				            presente indicativo de practicar
+Practico		Grave				    presente indicativo de practicar
 Practicó		Aguda					pretérito indicativo de practicar 
 
 No olvidemos que el computador para estos casos guarda “un respetuoso silencioso”. En estos casos, solo el usuario sabe si la palabra debe tildarse o no. Example: tomo y tomó; hábito, habito y habitó; realizara y realizará; seria y sería; tenia y tenía; venia y venía; gráfica y grafica; amo y amó… 

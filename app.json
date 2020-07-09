@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Metacognitive",
-    "slug": "metacognitive",
+    "name": "El camino de los retos",
+    "slug": "caminoretos",
     "platforms": [
       "ios",
       "android",
@@ -25,10 +25,10 @@
       "bundleIdentifier": "yes"
     },
     "android": {
-      "package": "com.SBGames.metacognitive",
+      "package": "com.SBGames.caminoretos",
       "versionCode": 4
     },
     "description": "",
-    "githubUrl": "https://github.com/sanbope/metacognitive"
+    "githubUrl": "https://github.com/sanbope/caminoretos"
   }
 }
