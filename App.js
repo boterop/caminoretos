@@ -48,10 +48,7 @@ export default class App extends Component {
   }
 
   getStartMessage = () => {
-    return "METACOGNITIVE CHALLENGES TO CORRECT YOUR PARAGRAPHS AND ESSAYS\n"+
-    "Based on the following explanations, please correct your own mistakes.\n"+
-    "We want you to enhance your understanding and awareness about English rules\n"+
-    "to contribute with the development of good writing skills.";
+    return "El siguiente listado de retos responde a las dificultades más comunes que se han encontrado, a lo largo de la revisión de versiones intermedias de textos académicos; no se inspiran en ningún texto en particular y las ejemplificaciones son alteradas en su contenido para evitar que algún autor se sienta señalado. Se busca ayudar a fortalecer el hábito de autocorrección, una vez se ha identificado y explicado cada caso.";
   }
 
   _storeData = async () => {
@@ -125,19 +122,19 @@ export default class App extends Component {
             </View>
             <Button
               onPress={() => this.buttonActionPerformed("professor")}
-              title="professor"
+              title="profesor"
               color="#841584"
               accessibilityLabel="Professor Button"
             />
             <Button
               onPress={() => this.buttonActionPerformed("authors")}
-              title="authors"
+              title="autores"
               color="#841584"
               accessibilityLabel="Authors Button"
             />
             <Button 
               onPress={() => this.buttonActionPerformed("exercises")}
-              title="exercises"
+              title="ejercicios"
               color="#841584"
               accessibilityLabel="Exercises Button"
             />
@@ -154,7 +151,7 @@ export default class App extends Component {
               <View style={styles.topButtons}>
                 <Button
                   onPress={() => this.buttonActionPerformed("syntactic")}
-                  title={"syntactic\nchallenges"}
+                  title={"retos\nsintacticos"}
                   style={styles.topButtons}
                   color="#3C8515"
                   accessibilityLabel="Syntactic Button"
@@ -163,7 +160,7 @@ export default class App extends Component {
               <View style={styles.topButtons}>
                 <Button
                   onPress={() => this.buttonActionPerformed("pragmatic")}
-                  title={"pragmatic\nchallenges"}
+                  title={"retos\npragmáticos"}
                   style={styles.topButtons}
                   color="#3C8515"
                   accessibilityLabel="Pragmatic Button"
@@ -172,7 +169,7 @@ export default class App extends Component {
               <View style={styles.topButtons}>
                 <Button
                   onPress={() => this.buttonActionPerformed("semantic")}
-                  title={"semantic\nchallenges"}
+                  title={"retos\nsemanticos"}
                   style={styles.topButtons}
                   color="#3C8515"
                   accessibilityLabel="exercises Button"
@@ -193,7 +190,7 @@ export default class App extends Component {
       return (
         <Button 
           onPress={() => this.buttonActionPerformed("note")}
-          title="note"
+          title="nota"
           color="#841584"
           accessibilityLabel="Note Button"
         />
@@ -211,13 +208,13 @@ export default class App extends Component {
             <Text style={styles.uses} selectable>{this.state.use}</Text>
           </ScrollView>
 
-          <Text style={styles.titles}>Example:</Text>
+          <Text style={styles.titles}>Ejemplo:</Text>
 
           <ScrollView style={styles.scrollView}>
             <Text style={styles.example} selectable>{this.state.example}</Text>
           </ScrollView>
           
-          <Text style={styles.titles}>Correction:</Text>
+          <Text style={styles.titles}>Corrección:</Text>
 
           <ScrollView style={styles.scrollView}>
             <Text style={styles.correction} selectable>{this.state.correction}</Text>
