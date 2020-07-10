@@ -1,11 +1,15 @@
 Evitemos usar comas para divisiones mayores.#
-Example: Amaneció lloviendo, no sabía en qué iba a parar mi vida al día siguiente.#
-Correction: Amaneció lloviendo. No sabía en qué iba a parar mi vida al día siguiente.#
+Example: • Amaneció lloviendo, no sabía en qué iba a parar mi vida al día siguiente.
+• La lectura es vida, muchos estudiantes han tropezado con docentes que les han atrofiado el placer del libro.#
+Correction: • Amaneció lloviendo. No sabía en qué iba a parar mi vida al día siguiente.
+• La lectura es vida. Muchos estudiantes han tropezado con docentes que les han atrofiado el placer del libro.#
 Note: null#
 DIVPREGUNTAS
 Evitemos cortar una idea que aún no termina con signos de mayor categoría (punto, punto y coma…). En muchos de estos casos se usa, más bien, una coma.#
-Example: Trabajaba duro. A fin de conseguir altos ingresos.#
-Correction: Trabajaba duro, a fin de conseguir altos ingresos.#
+Example: • Trabajaba duro. A fin de conseguir altos ingresos.
+• La escritura es un proceso cognitivo vital en toda propuesta investigativa. Gracias al cual se ponen en marcha fases complejas de corrección.#
+Correction: • Trabajaba duro, a fin de conseguir altos ingresos.
+• La escritura es un proceso cognitivo vital en toda propuesta investigativa, gracias al cual se ponen en marcha fases complejas de corrección.#
 Note: null#
 DIVPREGUNTAS
 Evitemos abusar del verbo ser.#
@@ -37,7 +41,7 @@ Tengamos en cuenta el régimen preposicional.#
 Example: con base a lo anterior#
 Correction: con base en lo anterior#
 Note: Algunas preposiciones para tener en cuenta:
--	De acuerdo con
+    • De acuerdo con
     • Acorde con
     • En relación con 
     • En comparación con
@@ -50,10 +54,10 @@ Note: Algunas preposiciones para tener en cuenta:
     • Respecto de… Con respecto a#
 DIVPREGUNTAS
 Evitemos el “nivelismo” y el “interiorismo”. Dice doña Lucila González de Chaves en su libro Funcionalidad del idioma (1992: 122): “La expresión ‘al interior de’ es tan incorrecta, innecesaria, extranjera e inelegante como aquella ‘a nivel de’.#
-Example: Esto es lo que está ocurriendo al interior de la Asamblea Nacional Constituyente.
-Eso se ha dicho al interior de la Facultad.#
-Correction: Esto es lo que está ocurriendo en la Asamblea Nacional Constituyente.
-Eso se ha dicho en la Facultad.#
+Example: • Esto es lo que está ocurriendo al interior de la Asamblea Nacional Constituyente.
+• Eso se ha dicho al interior de la Facultad.#
+Correction: • Esto es lo que está ocurriendo en la Asamblea Nacional Constituyente.
+• Eso se ha dicho en la Facultad.#
 Note: null#
 DIVPREGUNTAS
 Evitemos, en lo posible, la construcción de oraciones muy largas, no solo por lo compleja que se hace su comprensión, sino también por los riesgos de que aparezcan problemas de concordancia gramatical y frases sin resolución.#
@@ -65,6 +69,8 @@ Evitemos ciertas construcciones de gerundio.#
 Example: Realicé un profundo análisis de la causa obteniendo una información seria.#
 Correction: Realicé un profundo análisis de la causa y obtuve una información seria.#
 Note: Conviene evitar el gerundio cuando la acción que él indica es posterior a la del verbo principal (González, 2005: 35).
+.
+.
 OTROS EJEMPLOS
 .
 Ejemplo: Anómala constitución del yo y el superyó, estando este último localizado.
@@ -105,22 +111,20 @@ DIVPREGUNTAS
 Tengamos en cuenta la aplicación de las reglas generales de acentuación.#
 Example: partire hoy mismo.#
 Correction: partiré hoy mismo.#
-Note:
-TIPO / ACENTO EN / TILDE / EJEMPLO
-Agudas / Última sílaba / Cuando terminan en vocal, n, s / Vivirás, gorrión
-Graves / Penúltima sílaba / Cuando NO terminan en vocal, n, s / Lápiz, ángel
-Esdrújulas / Antepenúltima sílaba / TODAS llevan /  Plátano, música
-Sobreesdrújulas / Trasantepenúltima sílaba / TODAS llevan / Dígamelo, llévaselo
-Hiatos / Cuando dos vocales fuertes estén juntas (u, i) / TODAS LLEVAN / País, baúl#
+Note: TIPO / ACENTO EN / TILDE / EJEMPLO
+• Agudas / Última sílaba / Cuando terminan en vocal, n, s / Vivirás, gorrión
+• Graves / Penúltima sílaba / Cuando NO terminan en vocal, n, s / Lápiz, ángel
+• Esdrújulas / Antepenúltima sílaba / TODAS llevan /  Plátano, música
+• Sobreesdrújulas / Trasantepenúltima sílaba / TODAS llevan / Dígamelo, llévaselo
+• Hiatos / Cuando dos vocales fuertes estén juntas (u, i) / TODAS LLEVAN / País, baúl#
 DIVPREGUNTAS
 Ocupémonos de la tilde en parejas o trilogías prosódicas. Se trata de grupos de palabras iguales en su escritura, pero diferentes en su pronunciación y significado, según el lugar en el que se ubique el acento.#
 Example: suelo ser una persona muy practica.#
 Correction: suelo ser una persona muy práctica.#
-Note:.
-PALABRA 		CLASIFICACIÓN			FORMA
+Note: PALABRA 		CLASIFICACIÓN			FORMA
 Práctico		Esdrújula				Adjetivo calificativo
-Practico		Grave				    presente indicativo de practicar
-Practicó		Aguda					pretérito indicativo de practicar 
+Practico		Grave				    Presente indicativo de practicar
+Practicó		Aguda					Pretérito indicativo de practicar 
 .
 No olvidemos que el computador para estos casos guarda “un respetuoso silencioso”. En estos casos, solo el usuario sabe si la palabra debe tildarse o no. Example: tomo y tomó; hábito, habito y habitó; realizara y realizará; seria y sería; tenia y tenía; venia y venía; gráfica y grafica; amo y amó.#
 DIVPREGUNTAS
@@ -139,6 +143,8 @@ DIVPREGUNTAS
 Recordemos que cuando hay un sustantivo masculino y otro femenino, el adjetivo acompañante va en masculino plural.#
 Example: También depende de las variables y métodos tomadas#
 Correction: También depende de las variables y métodos tomados.#
+Note: null#
+DIVPREGUNTAS
 Evitemos las construcciones SUSTANTIVO + A + INFINITIVO#
 Example: El orden a seguir.#
 Correction: El orden que seguiremos o el orden por seguir.#
@@ -150,7 +156,7 @@ Correction: Pienso que hoy llega.#
 Note: null#
 DIVPREGUNTAS
 Evitemos el queísmo.#
-Example: Estoy seguro que no volverá.
+Example: Estoy seguro que no volverá.#
 Correction: Estoy seguro de que no volverá.#
 Note: Curiosamente, por el mismo temor que genera el dequeísmo, muchas personas suprimen la preposición DE en oraciones que la rigen. La mejor forma de salir de la duda que esto genera es pensar en la pregunta correspondiente. En los ejemplos que vienen, sabemos que las preguntas serían: ¿DE qué estoy seguro?, ¿DE qué me doy cuenta?, ¿DE qué soy consciente? Por consiguiente, si la pregunta lleva la preposición DE, la afirmación respectiva debe conservarla. En cambio, nunca preguntamos ¿DE qué pienso?, ¿De qué digo?, ¿De qué veo?, lo que haría incorrecto añadir la preposición DE en las afirmaciones respectivas.#
 DIVPREGUNTAS
@@ -203,7 +209,7 @@ DIVPREGUNTAS
 Evitemos tildar los pronombres demostrativos este, esta, estos, estas, ese, esa, esos, esas.#
 Example: Lo perdieron todo por éstos.#
 Correction: Lo perdieron todo por estos.#
-Note:Ya la Nueva Ortografía de la Real Academia eliminó esta norma. Lo mismo ocurrió con la palabra “solo” en cualquiera de sus acepciones.#
+Note: Ya la Nueva Ortografía de la Real Academia eliminó esta norma. Lo mismo ocurrió con la palabra “solo” en cualquiera de sus acepciones.#
 .
 .
 Ejemplo: Sólo una vez se puede presentar el examen.
@@ -225,7 +231,7 @@ Example: En ese momento Adrián el marido de mi hermana dijo que nos ayudaría.#
 Correction: En ese momento Adrián, el marido de mi hermana, dijo que nos ayudaría.#
 Note: En el caso siguiente, la omisión de comas dispara otro sentido muy distinto: “Tu risa es más que alegre delincuente”. Propiamente lo que Quevedo quiso decir fue: “Tu risa es, más que alegre, delincuente”#
 DIVPREGUNTAS
-Utilicemos las comas para separar conectores. Antes de conectores simples como: pero, sino, mas, aunque, de manera que, porque, pues…Encerrando conectores compuestos como: es decir, en cambio, por otra parte, por supuesto, en otras palabras...
+Utilicemos las comas para separar conectores. Antes de conectores simples como: pero, sino, mas, aunque, de manera que, porque, pues…Encerrando conectores compuestos como: es decir, en cambio, por otra parte, por supuesto, en otras palabras...#
 Example: La educación básica, además de orientar hacia los fines de la educación, tiene como reto generar espacios es decir buscar alternativas para mejorar los procesos.#
 Correction: La educación básica, además de orientar hacia los fines de la educación, tiene como reto generar espacios, es decir, buscar alternativas para mejorar los procesos.#
 Note: null#
@@ -251,9 +257,9 @@ Correction: Estudió todo lo que pudo sobre argumentos de ejemplificación, de a
 Note: Sin embargo, en los demás casos, no marcamos coma antes de estas conjunciones.
 .
 .
-Example: Encontró exámenes, entrevistas, encuestas, y un pretest.
+Ejemplo: Encontró exámenes, entrevistas, encuestas, y un pretest.
 .
-Correction: Encontró exámenes, entrevistas, encuestas y un pretest.
+Corrección: Encontró exámenes, entrevistas, encuestas y un pretest.
 DIVPREGUNTAS
 Recordemos que la concordancia en adjetivos compuestos unidos mediante un guion solo opera para el último miembro; la primera parte queda en masculino.#
 Example: Las medidas políticas-sociales.#
@@ -293,12 +299,14 @@ DIVPREGUNTAS
 Apliquemos también las reglas de la tilde sobre palabras en mayúscula; lo mismo vale para la diéresis.#
 Example: UNIVERSIDAD DEL QUINDIO, DIDACTICA DE LA BIOLOGIA Y MAESTRIA EN LINGUISTICA, AlvaroAngel#
 Correction: UNIVERSIDAD DEL QUINDÍO, DIDÁCTICA DE LA BIOLOGÍA Y MAESTRÍA EN LINGÜÍSTICA, Álvaro Ángel#
-Note: null#
+Note: Diéresis: "
+Ejemplo: pinguino
+Corrección: pingüino#
 DIVPREGUNTAS
 Evitemos lo que podríamos llamar la colisión sintáctica entre el verbo de un encabezado y la cita que le sigue en la misma construcción.#
 Example: Para Chevallard (1991) la transposición Didáctica es “un contenido de saber que ha sido designado como saber a enseñar, sufre a partir de entonces un conjunto de transformaciones adaptativas que van a hacerlo apto para ocupar un lugar entre los objetos de enseñanza.#
 Correction: Para Chevallard (1991) la transposición Didáctica es “un contenido de saber que ha sido designado como saber a enseñar [que] sufre a partir de entonces un conjunto de transformaciones adaptativas que van a hacerlo apto para ocupar un lugar entre los objetos de enseñanza”.#
-Note:Notemos cómo todo iba bien hasta que apareció el verbo sufrir que cuadraba muy bien en la cita, pero que al contacto con una construcción ajena, regida por el verbo “es”, ya queda en el lugar equivocado. Otra manera de corregir este problema: 
+Note: Notemos cómo todo iba bien hasta que apareció el verbo sufrir que cuadraba muy bien en la cita, pero que al contacto con una construcción ajena, regida por el verbo “es”, ya queda en el lugar equivocado. Otra manera de corregir este problema: 
     • Para Chevallard (1991) la transposición Didáctica es “un contenido de saber que ha sido designado como saber a enseñar”; según el autor, este “sufre a partir de entonces un conjunto de transformaciones adaptativas que van a hacerlo apto para ocupar un lugar entre los objetos de enseñanza”.#
 DIVPREGUNTAS
 Usemos rayas (también llamadas guiones largos) para encerrar aclaraciones o incisos que interrumpen el discurso, en lugar de guiones (signos más cortos). Estos últimos se usan básicamente cuando es necesario hacer divisiones dentro de una palabra (técnico-administrativo, teórico-práctico).#
@@ -394,8 +402,7 @@ DIVPREGUNTAS
 A la hora de enumerar es importante mantener cierta simetría morfológica, sintáctica y semántica.#
 Example: La experiencia facilitó la recopilación de información sobre las creencias de los profesores en los siguientes aspectos: el uso de terminología, escribir mensajes de felicitación, una convivencia más auténtica y sintiendo confianza en los cursos.#
 Correction: La experiencia facilitó la recopilación de información sobre las creencias de los profesores en los siguientes aspectos: el uso de terminología, la escritura de mensajes de felicitación, la convivencia más auténtica y el fortalecimiento de la  confianza en los cursos.#
-Note: 
-La enumeración permite muchas modalidades de encabezamiento (por artículo definido y sustantivo, por verbo en infinitivo, por artículo indefinido y sustantivo, etc.)
+Note: La enumeración permite muchas modalidades de encabezamiento (por artículo definido y sustantivo, por verbo en infinitivo, por artículo indefinido y sustantivo, etc.)
 
 Otro caso: 
     • La investigación se ocupó de diversos problemas en los campos de lectura y la escritura.
@@ -408,7 +415,7 @@ Example: Su función es dar, brindar y otorgar información.#
 Correction: Su función es informar.#
 Note: null#
 DIVPREGUNTAS
-Evitemos el adverbio relativo “donde” en oraciones que  no expresan, en sentido estricto, relaciones de lugar. Para enmendar la oración se debe ajustar la oración a la circunstancia específica: cuando (tiempo), como (modo)… o por medio de giros con pronombres relativos (en el cual, por el cual, a través del cual...). 
+Evitemos el adverbio relativo “donde” en oraciones que  no expresan, en sentido estricto, relaciones de lugar. Para enmendar la oración se debe ajustar la oración a la circunstancia específica: cuando (tiempo), como (modo)… o por medio de giros con pronombres relativos (en el cual, por el cual, a través del cual...).#
 Example: El texto argumentativo se identifica porque informa de la manera más objetiva posible una temática, donde  la persona tenga que acomodar los saberes previos a los nuevos saberes  y generar un nuevo conocimiento de manera puntual.#
 Correction: El texto argumentativo se identifica porque informa de la manera más objetiva posible una temática; desde esta condición la persona tiene que acomodar los saberes previos a los nuevos saberes  y generar un nuevo conocimiento de manera puntual.#
 Note: null#
@@ -420,76 +427,74 @@ Note: null#
 DIVPREGUNTAS
 Revisemos la estructuración de párrafos. No olvidemos que un párrafo es unidad de sentido microestructural. Por lo general, comprende más de una oración. Aunque es difícil plantear alguna norma al respecto, si una oración está muy conectada a la anterior, debe ir dentro del mismo párrafo.#
 Example: Surge, así, la pregunta de investigación: ¿Cómo conseguir que los estudiantes de primer semestre de Ingeniería Eléctrica comprendan textos argumentativos?
-\n
+.
 Esta pregunta representa la preocupación central de la investigación y determina sus términos claves, a saber: 
 Didáctica, Tipología textual argumentativa, dimensiones y niveles del texto, comprensión lectora, estrategias cognitivas y metacognitivas.#
 Correction: 
     • Surge, así, la pregunta de investigación: ¿Cómo conseguir que los estudiantes de primer semestre de Ingeniería Eléctrica comprendan textos argumentativos? Esta pregunta representa la preocupación central de la investigación y determina sus términos claves, a saber: Didáctica, Tipología textual argumentativa, dimensiones y niveles del texto, comprensión lectora, estrategias cognitivas y metacognitivas.#
 Note: No olvidemos, además, que los párrafos se separan por un espacio interlineal, y solo la última oración cierra con punto y aparte. 
-\n
+.
 Ejemplo:
     • Anna Camps (2004), define la didáctica como el espacio de “la interrelación entre las actividades de aprender, las actividades de enseñar y el objeto de ambas”.
 En el proceso de intervención actúa de manera significativa la transposición didáctica como herramienta mediadora para la enseñanza, en la que es necesario transformar, reducir, simplificar y reformular.
-\n
+.
 Corrección:
     • Anna Camps (2004), define la didáctica como el espacio de “la interrelación entre las actividades de aprender, las actividades de enseñar y el objeto de ambas”. En el proceso de intervención actúa de manera significativa la transposición didáctica como herramienta mediadora para la enseñanza, en la que es necesario transformar, reducir, simplificar y reformular.#
 DIVPREGUNTAS
 Revisemos casos ortográficos de palabras homófonas que el computador no corrige. Hacen parte de esta clasificación las palabras que suenan igual, pero significan y se escriben diferente, tales como: hierba (planta) y hierva (inflexión del verbo hervir). Naturalmente, la distinción entre uno y otro caso solo le compete al usuario, ya que el computador aprobará indistintamente cualquiera de los dos por encontrarse registrados en su diccionario.#
 Example: quiero una hierva para preparar una infusión.#
 Correction: quiero una hierba para preparar una infusión.#
-
-En la siguiente tabla se recogen algunos de los más usuales: 
-
-PALABRAS HOMÓFONAS DE USO COMÚN 
-1) B-V
+Note: PALABRAS HOMÓFONAS DE USO COMÚN
+.
+B-V
 Acerbo = Áspero, cruel/ sabor acerbo
 Acervo = Montón / acervo de riquezas
-\n
+.
 Barón = Título de nobleza/ Barón de Mónaco
 Varón = Hombre / era todo un varón
-\n
+.
 Bello = Hermoso / bello paisaje
 Vello = Pelo / cubierto de vellos
-\n
+.
 Bienes = Riqueza / numerosos bienes
 Vienes = De venir/ si vienes, te espero 
-\n
+.
 Bota = Calzado / bota militar
 Vota = De votar / vota por mí
-\n
+.
 Botar = Arrojar / botar la basura
 Votar = Elegir / va a votar por él
-\n
+.
 Abrasar = Quemar / fuego abrasador
 Abrazar = Estrechar con los brazos
-\n
+.
 Coser = Unir telas con hilo
 Cocer = Cocinar / cocer los alimentos
-\n
+.
 Hola = Saludo / hola, como estás?
 Ola = Montaña de agua / surfeando en las olas
-\n
+.
 Malla = Red / Tejió una malla
 Maya = Tribu / calendario maya#
 DIVPREGUNTAS
 Identifiquemos los diversos usos de los “porqués”#
-Example: ¿porqué llegaste tarde?
+Example: ¿porqué llegaste tarde?#
 Correction: ¿Por qué llegaste tarde?#
-Note: Por  qué: Adverbio interrogativo. En preguntas directas o cuando se refiera de modo indirecto a ellas
+Note: • Por  qué: Adverbio interrogativo. En preguntas directas o cuando se refiera de modo indirecto a ellas
 ¿Por qué llegaste tarde?
 ej: No sé bien por qué te demoraste tanto
-\n
-Porque: Adverbio de causa. Se emplea en respuestas como conector para indicar la razón de algo
+.
+• Porque: Adverbio de causa. Se emplea en respuestas como conector para indicar la razón de algo
 También es adverbio final equivalente a “para que”
 ej: No vino a clase porque estaba enfermo
 Lloró mucho porque lo dejó la novia
 Lo hago todo porque estés bien
-\n
-Porqué: Sustantivo que casi siempre va precedido por el artículo EL; puede cambiarse por la causa, la razón
+.
+• Porqué: Sustantivo que casi siempre va precedido por el artículo EL; puede cambiarse por la causa, la razón
 ej: Nadie supo el porqué de su tristeza
 Todos indagaban por el porqué de su tardanza
-\n
-Por que: Unión de preposición y pronombre relativo. Equivale a “por las cuales”
+.
+• Por que: Unión de preposición y pronombre relativo. Equivale a “por las cuales”
 ej: Estas son las razones por que no he podido asistir.#
 DIVPREGUNTAS
 Evitemos marcar dos puntos entre el sustantivo que designa un trabajo y su título entre comillas.#
@@ -499,7 +504,7 @@ Note: null#
 DIVPREGUNTAS
 Recordemos que los ordinales primero y tercero (además de sus compuestos) adoptan los apócopes primer y tercer únicamente antes de palabras en masculino; para palabras en femenino adoptan las formas primera y tercera. En ese caso, es correcto decir primer día, tercer intento, vigesimoprimer año..., pero no:#
 Example: Primer tarea.#
-Correction: primera tarea#
+Correction: Primera tarea#
 Note: null#
 DIVPREGUNTAS
 Recordemos que si en medio de una oración conectamos una cita de otro autor (sin que la precedan los dos puntos), no tenemos que iniciar la cita con mayúscula inicial.#
@@ -516,7 +521,7 @@ Para encadenar preguntas, utilicemos la siguiente forma.#
 Example: Responde a preguntas como: ¿qué es?; ¿cómo es?; ¿de qué partes consta?; ¿qué hace?; ¿para qué sirve?#
 Correction: Responde a preguntas como: ¿qué es?, ¿cómo es?, ¿de qué partes consta?, ¿qué hace?, ¿para qué sirve? (separadas por comas y en minúscula inicial)#
 Note: Otra manera: 
-    • Respondea preguntas como: ¿Qué es? ¿Cómo es? ¿De qué partes consta? ¿Qué hace? ¿Para qué sirve? (sin comas y con mayúscula inicial para cada pregunta)#
+    • Responde a preguntas como: ¿Qué es? ¿Cómo es? ¿De qué partes consta? ¿Qué hace? ¿Para qué sirve? (sin comas y con mayúscula inicial para cada pregunta)#
 DIVPREGUNTAS
 Escribamos con mayúscula inicial todo nombre propio. Ejemplos: nombres de persona, animal o cosa singularizada, nombres geográficos, apellidos, marcas comerciales, etc.#
 Example: martha es una buena estudiante.#

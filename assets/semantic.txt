@@ -1,60 +1,34 @@
-RETOS METACOGNITIVOS DE ORDEN SEMÁNTICO
-
-
-1- Evitemos las enumeraciones de solo dos elementos. 
-
-Example: Se observan los verbos, formas impersonales, etc.
-
-El lector espera, al menos, tres elementos antes del “etcétera”. 
-
-En un texto académico es muy importante argumentar por la cantidad. Al respecto, Weston nos pregunta: ¿Hay más de un ejemplo? Por ello no queda bien armar una enumeración solo con dos elementos y luego escribir etcétera. 
-
-
-
-2- Busquemos alternativas más precisas a verbos muy generales como “tener”. 
-
-Example: Queda claro que la didáctica tiene un papel fundamental en el proceso de enseñanza-aprendizaje. 
-
-Correction: Queda claro que la didáctica cumple un papel fundamental en el proceso de enseñanza-aprendizaje.
-
-
-3- Busquemos alternativas más precisas a verbos muy generales como “hacer”. Las posibilidades son muchas: realizar, construir, fabricar,  ocasionar, causar, provocar, practicar, formar, desempeñar, confeccionar… 
-
-Example:  Los talabarteros saben hacer artículos de cuero.
-
-Correction: Los talabarteros saben confeccionar artículos de cuero
-
-
-4- Evitemos aquellos adjetivos que no agreguen mayores detalles al sustantivo que califican. 
-
-Example: El autor formula sus conclusiones finales. 
-
-Correction: El autor formula sus conclusiones. 
-
-
-
-
-
-5- Recordemos la diferencia entre sino y si no.
-
-Example: no es blanco si no negro.
-Correction: no es blanco, sino negro
- 
-El primero es conector adversativo: “no es blanco, sino negro”. El segundo es un condicional negativo: “si no llegas temprano, perderás el turno”.  
-
-
-6- Recordemos la diferencia entre sobretodo (pegado) y sobre todo (en dos palabras). 
-
-Example: Me encanta la pizza, sobretodo la de champiñones y piña
-Correction: Me encanta la pizza, sobre todo la de champiñones y piña
-
-
-Sobretodo significa abrigo; en cambio, sobre todo es locución adverbial que significa con especialidad, mayormente, principalmente. 
-
-
-7- Tengamos presente que en textos académicos no se utiliza el signo de @ para referirse a ambos sexos. 
-
-Example: todos los niñ @ s deben asistir. 
-Correction: todos los niños deben asistir. 
-
-La RAE recuerda que el género gramatical no tiene que ver nada con el sexo; por ejemplo, al hablar de “niños” estamos incluyendo tanto a los niños como a las niñas.
+Evitemos las enumeraciones de solo dos elementos.#
+Example: Se observan los verbos, formas impersonales, etc.#
+Correction: El lector espera, al menos, tres elementos antes del “etcétera”.#
+Note: En un texto académico es muy importante argumentar por la cantidad. Al respecto, Weston nos pregunta: ¿Hay más de un ejemplo? Por ello no queda bien armar una enumeración solo con dos elementos y luego escribir etcétera.#
+DIVPREGUNTAS
+Busquemos alternativas más precisas a verbos muy generales como “tener”.#
+Example: Queda claro que la didáctica tiene un papel fundamental en el proceso de enseñanza-aprendizaje.#
+Correction: Queda claro que la didáctica cumple un papel fundamental en el proceso de enseñanza-aprendizaje.#
+Note: null#
+DIVPREGUNTAS
+Busquemos alternativas más precisas a verbos muy generales como “hacer”. Las posibilidades son muchas: realizar, construir, fabricar,  ocasionar, causar, provocar, practicar, formar, desempeñar, confeccionar...#
+Example:  Los talabarteros saben hacer artículos de cuero.#
+Correction: Los talabarteros saben confeccionar artículos de cuero.#
+Note: null#
+DIVPREGUNTAS
+Evitemos aquellos adjetivos que no agreguen mayores detalles al sustantivo que califican.#
+Example: El autor formula sus conclusiones finales.#
+Correction: El autor formula sus conclusiones.#
+Note: null#
+DIVPREGUNTAS
+Recordemos la diferencia entre sino y si no.#
+Example: No es blanco si no negro.#
+Correction: No es blanco, sino negro.# 
+Note: El primero es conector adversativo: “no es blanco, sino negro”. El segundo es un condicional negativo: “si no llegas temprano, perderás el turno”.#
+DIVPREGUNTAS
+Recordemos la diferencia entre sobretodo (pegado) y sobre todo (en dos palabras).#
+Example: Me encanta la pizza, sobretodo la de champiñones y piña#
+Correction: Me encanta la pizza, sobre todo la de champiñones y piña#
+Note: Sobretodo significa abrigo; en cambio, sobre todo es locución adverbial que significa con especialidad, mayormente, principalmente.#
+DIVPREGUNTAS
+Tengamos presente que en textos académicos no se utiliza el signo de @ para referirse a ambos sexos.#
+Example: todos l@s niñ@s deben asistir.#
+Correction: todos los niños deben asistir.#
+Note: La RAE recuerda que el género gramatical no tiene que ver nada con el sexo; por ejemplo, al hablar de “niños” estamos incluyendo tanto a los niños como a las niñas.#

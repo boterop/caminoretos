@@ -1,31 +1,24 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Alert, Dimensions, TextInput, Button, ScrollView, Slider, AsyncStorage } from 'react-native';
 import Syntactic from './syntactic'
-import Pragmatic from './pragmatic'
 import Semantic from './semantic'
-import Professor from './professor'
 
 var {height, width} = Dimensions.get('window');
 
 var numberVar = "1";
 
 var isSyntactic = true;
-var isPragmatic = false;
 var isSemantic = false;
 
 let syntacticConst;
-let pragmaticConst;
 let semanticConst;
-let professorConst;
 
 export default class App extends Component {
   constructor()
   {
     super();
     syntacticConst = new Syntactic();
-    pragmaticConst = new Pragmatic();
     semanticConst = new Semantic();
-    professorConst = new Professor();
     var note = syntacticConst.getNotes()[numberVar-1];
     this.state = {
       started: false,
@@ -33,7 +26,6 @@ export default class App extends Component {
       texts_visible: true,
       authors_visible: false,
       hasNotes: false,
-      professor_visible: false,
       exercises_visible: false,
       config_visible: false,
       headTable: ['Syntactic', 'Description', 'Examples'],
@@ -107,44 +99,32 @@ export default class App extends Component {
                 <Button
                   onPress={() => this.buttonActionPerformed("left")}
                   title="<"
-                  color="#841584"
-                  accessibilityLabel="Professor Button"
+                  color="#006B5D"
+                  accessibilityLabel="Left Button"
                 />
               </View>
               <View style={styles.boxArrowRight}>
                 <Button
                   onPress={() => this.buttonActionPerformed("right")}
                   title=">"
-                  color="#841584"
-                  accessibilityLabel="Professor Button"
+                  color="#006B5D"
+                  accessibilityLabel="Right Button"
                 />
               </View>
             </View>
             <Button
-              onPress={() => this.buttonActionPerformed("professor")}
-              title="profesor"
-              color="#841584"
-              accessibilityLabel="Professor Button"
-            />
-            <Button
               onPress={() => this.buttonActionPerformed("authors")}
               title="autores"
-              color="#841584"
+              color="#006B5D"
               accessibilityLabel="Authors Button"
             />
-            <Button 
-              onPress={() => this.buttonActionPerformed("exercises")}
-              title="ejercicios"
-              color="#841584"
-              accessibilityLabel="Exercises Button"
-            />
+            { this._noteButton() }
             <Button 
               onPress={() => this.buttonActionPerformed("config")}
               title="config"
-              color="#841580"
+              color="#006B5D"
               accessibilityLabel="Config Button"
             />
-            { this._noteButton() }
           </View>
           <View style={[styles.boxRight, {backgroundColor: this.state.customBackground,}]}>
             <View style={styles.boxTop}>
@@ -153,17 +133,8 @@ export default class App extends Component {
                   onPress={() => this.buttonActionPerformed("syntactic")}
                   title={"retos\nsintacticos"}
                   style={styles.topButtons}
-                  color="#3C8515"
+                  color="#13BD9E"
                   accessibilityLabel="Syntactic Button"
-                />
-              </View>
-              <View style={styles.topButtons}>
-                <Button
-                  onPress={() => this.buttonActionPerformed("pragmatic")}
-                  title={"retos\npragmáticos"}
-                  style={styles.topButtons}
-                  color="#3C8515"
-                  accessibilityLabel="Pragmatic Button"
                 />
               </View>
               <View style={styles.topButtons}>
@@ -171,7 +142,7 @@ export default class App extends Component {
                   onPress={() => this.buttonActionPerformed("semantic")}
                   title={"retos\nsemanticos"}
                   style={styles.topButtons}
-                  color="#3C8515"
+                  color="#13BD9E"
                   accessibilityLabel="exercises Button"
                 />
               </View>
@@ -191,7 +162,7 @@ export default class App extends Component {
         <Button 
           onPress={() => this.buttonActionPerformed("note")}
           title="nota"
-          color="#841584"
+          color="#006B5D"
           accessibilityLabel="Note Button"
         />
       );
@@ -208,13 +179,13 @@ export default class App extends Component {
             <Text style={styles.uses} selectable>{this.state.use}</Text>
           </ScrollView>
 
-          <Text style={styles.titles}>Ejemplo:</Text>
+          <Text style={styles.titles}>{"Ejemplo(s):"}</Text>
 
           <ScrollView style={styles.scrollView}>
             <Text style={styles.example} selectable>{this.state.example}</Text>
           </ScrollView>
           
-          <Text style={styles.titles}>Corrección:</Text>
+          <Text style={styles.titles}>{"Corrección(es):"}</Text>
 
           <ScrollView style={styles.scrollView}>
             <Text style={styles.correction} selectable>{this.state.correction}</Text>
@@ -240,23 +211,6 @@ export default class App extends Component {
           <Text style={styles.notes} selectable>{this.state.note}</Text>
         </ScrollView>
       );
-    }else if(this.state.professor_visible)
-    {
-      let returnValue = professorConst.getMatrix().map(eachItem =>
-        <View style={{flexDirection: 'row'}}>
-            <Text onPress={() => this.goToChallenge(eachItem[0])} selectable style={this.getProfessorStyle(eachItem[1])}>
-              {eachItem[0]}
-            </Text>
-            <Text onPress={() => this.goToChallenge(eachItem[0])} selectable style={this.getProfessorStyle(eachItem[1])}>
-              {eachItem[1]}
-            </Text>
-        </View>
-      );
-      return (
-        <ScrollView>
-          {returnValue}
-        </ScrollView>
-      );
     }else if(this.state.config_visible)
     {
       return (
@@ -268,31 +222,6 @@ export default class App extends Component {
           <Text style={{paddingLeft: 10}}>Ajustar fondo amarillo: {this.state.customBackground}</Text>
         </View>
       );
-    }
-  }
-
-  goToChallenge = (item) =>
-  {
-    if(item.includes("#"))
-    {
-      var type = item.split("#")[0];
-      var n = item.split("#")[1];
-
-      this.buttonActionPerformed(type == "SY" ? "syntactic" : type == "P" ? "pragmatic" : "semantic");
-      this.setState({number: n});
-      numberVar = n;
-      this.updateChallenge();
-    }
-  }
-
-  getProfessorStyle = (item) =>
-  {
-    if(item == 'DESCRIPTION')
-    {
-      return styles.professorTitle;
-    }else
-    {
-      return styles.professor;
     }
   }
 
@@ -390,12 +319,6 @@ export default class App extends Component {
         this.onChangeText(""+(parseInt(this.state.number)+1));
         this.updateChallenge();
         break;
-      case "professor":
-        this.setState({
-          texts_visible: false,
-          professor_visible: true
-        });
-        break;
       case "config":
         this.setState({
           config_visible: true,
@@ -404,9 +327,8 @@ export default class App extends Component {
         });
         break;
       case "authors":
-        var authors = "Autoras: Jacqueline García Botero\n"+
-                      "Larissa Tatiana Rico Buitragos\n"+
-                      "Margarita Alexandra Botero Restrepo\n\n"+
+        var authors = "Autores: Miguel Angel Caro Lopera\n"+
+                      "Jacqueline García Botero\n\n"+
                       "Programador: Santiago Botero Peláez\n"+
                       "Armenia, Quindio, Colombia (2020)";
         this.setState({authors: authors});
@@ -468,7 +390,6 @@ export default class App extends Component {
         numberVar = "1";
         isSyntactic = true;
         isSemantic = false;
-        isPragmatic = false;
         this.updateChallenge();
         break;
       case "semantic":
@@ -478,17 +399,6 @@ export default class App extends Component {
         numberVar = "1";
         isSyntactic = false;
         isSemantic = true;
-        isPragmatic = false;
-        this.updateChallenge();
-        break;
-      case "pragmatic":
-        this.setState({
-          number: "1",
-        });
-        numberVar = "1";
-        isSyntactic = false;
-        isSemantic = false;
-        isPragmatic = true;
         this.updateChallenge();
         break;
     }
@@ -509,9 +419,6 @@ export default class App extends Component {
       if(isSyntactic && num >= syntacticConst.getSize())
       {
         text = ""+syntacticConst.getSize();
-      }else if(isPragmatic && num >= pragmaticConst.getSize())
-      {
-        text = ""+pragmaticConst.getSize();
       }else if(isSemantic && num >= semanticConst.getSize())
       {
         text = ""+semanticConst.getSize();
@@ -530,7 +437,6 @@ export default class App extends Component {
       exercises_visible: false,
       notes_visible: false,
       config_visible: false,
-      professor_visible: false
     })
   }
 
@@ -554,16 +460,6 @@ export default class App extends Component {
         use: semanticConst.getUses()[numberVar-1],
         example: semanticConst.getExamples()[numberVar-1] == "null" ? "" : semanticConst.getExamples()[numberVar-1],
         correction: semanticConst.getCorrections()[numberVar-1] == "null" ? "" : semanticConst.getCorrections()[numberVar-1],
-        note: note,
-        hasNotes: note !== "null",
-      });
-    }else if(isPragmatic)
-    {
-      var note = pragmaticConst.getNotes()[numberVar-1];
-      this.setState({
-        use: pragmaticConst.getUses()[numberVar-1],
-        example: pragmaticConst.getExamples()[numberVar-1] == "null" ? "" : pragmaticConst.getExamples()[numberVar-1],
-        correction: pragmaticConst.getCorrections()[numberVar-1] == "null" ? "" : pragmaticConst.getCorrections()[numberVar-1],
         note: note,
         hasNotes: note !== "null",
       });
@@ -596,7 +492,7 @@ const styles = StyleSheet.create({
   },
   boxLeft: {
     flexDirection: 'column',
-    height: height-75,
+    height: height,
     width: 100,
     //backgroundColor: background,
   },
@@ -662,13 +558,13 @@ const styles = StyleSheet.create({
   },
   boxTop: {
     flexDirection: 'row',
-    height: 50,
+    height: 52,
     width: width-100,
     justifyContent: 'flex-start',
-    backgroundColor: '#e3aa1a'
+    backgroundColor: '#ffffff'
   },
   topButtons: {
-    width: (width-100)/3,
+    width: (width-100)/2,
     height: 40,
   },
   startedButton: {
@@ -684,21 +580,4 @@ const styles = StyleSheet.create({
     alignContent: "center",
     backgroundColor: '#ffe0f0'
   },
-  professor: {
-    width: (width-100)/2,
-    height: 35,
-    fontSize: 13,
-    textAlign: 'center',
-    textAlignVertical: 'center',
-    borderWidth: 2,
-    borderColor: '#000000',
-  },
-  professorTitle: {
-    width: (width-100)/2,
-    textAlign: 'center',
-    textAlignVertical: 'center',
-    borderWidth: 2,
-    backgroundColor: '#5ff',
-    borderColor: '#000000',
-  }
 });
