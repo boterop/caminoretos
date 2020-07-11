@@ -26,9 +26,7 @@ export default class App extends Component {
       texts_visible: true,
       authors_visible: false,
       hasNotes: false,
-      exercises_visible: false,
       config_visible: false,
-      headTable: ['Syntactic', 'Description', 'Examples'],
       customBackground: "#ffffff",
 
       use: syntacticConst.getUses()[numberVar-1],
@@ -143,7 +141,7 @@ export default class App extends Component {
                   title={"retos\nsemanticos"}
                   style={styles.topButtons}
                   color="#13BD9E"
-                  accessibilityLabel="exercises Button"
+                  accessibilityLabel="Semantic Button"
                 />
               </View>
             </View>
@@ -196,13 +194,6 @@ export default class App extends Component {
     {
       return (
         <Text style={styles.authors}>{this.state.authors}</Text>
-      );
-    }else if(this.state.exercises_visible)
-    {
-      return (
-        <ScrollView style={styles.scrollView}>
-          <Text style={{fontSize: 13}} selectable>{this.state.exercises}</Text>
-        </ScrollView>
       );
     }else if(this.state.notes_visible)
     {
@@ -330,52 +321,10 @@ export default class App extends Component {
         var authors = "Autores: Miguel Angel Caro Lopera\n"+
                       "Jacqueline García Botero\n\n"+
                       "Programador: Santiago Botero Peláez\n"+
-                      "Armenia, Quindio, Colombia (2020)";
+                      "Armenia, Quindio, Colombia (2019)";
         this.setState({authors: authors});
         this.setState({texts_visible : false});
         this.setState({authors_visible : true});
-        break;
-      case "exercises":
-        var exercises = "exercises:\n\n"+
-
-                        "Exercises about grammar (mixed):\n"+
-                        "http://www.really-learn-english.com/easy-english-grammar.html\n"+
-                        "http://www.perfect-english-grammar.com/grammar-explanations.html\n"+
-                        "http://speakspeak.com/english-grammar-exercises\n"+
-                        "http://www.examenglish.com/grammar/b1_grammar.html\n\n"+
-                        
-                        "Exercises about verb tenses:\n"+
-                        "http://www.agendaweb.org/verbs/mixed_tenses-exercises.html\n"+
-                        "http://www.agendaweb.org/verbs/all-tenses-in-english.html\n"+
-                        "http://www.formadocenti.it/download/test_inglese.pdf\n"+
-                        "http://esl.fis.edu/grammar/q7m/1.htm\n"+
-                        "http://www.english-4u.de/tenses_ex2.htm\n\n"+
-                        
-                        "Exercises about gerunds vs infinitives:\n"+
-                        "https://www.usingenglish.com/quizzes/420.html\n"+
-                        "https://www.allthingsgrammar.com/uploads/2/3/2/9/23290220/atg-quiz-gerundsinfin-2.pdf\n"+
-                        "https://www.allthingsgrammar.com/uploads/2/3/2/9/23290220/atg-quiz-gerinfinrevised.pdf\n"+
-                        "http://a4esl.org/q/h/9801/el-to-ing.html\n"+
-                        "https://www.e-grammar.org/infinitive-gerund/test1-exercise2/\n"+
-                        "https://agendaweb.org/verbs/infinitives-gerunds-english.html\n"+
-                        "http://www.focus.olsztyn.pl/en-exercises-gerund.html\n\n"+
-                        
-                        "Exercises about phrasal verbs:\n"+
-                        "https://agendaweb.org/verbs/phrasal_verbs2-exercises.html\n"+
-                        "http://www.phrasalverbexercises.com/pv_1.html\n"+
-                        "http://www.english-grammar.at/online_exercises/phrasal_verbs/phrasal_verbs_index.htm\n"+
-                        "https://www.learnenglishfeelgood.com/mixed-phrasal-verbs1.html\n\n"+
-                        
-                        "Exercises about prepositions +-ing\n"+
-                        "http://www.grammar-quizzes.com/verbs_prep.html\n"+
-                        "https://www.englisch-hilfen.de/en/exercises/structures/gerund_prepositions.htm\n"+
-                        "https://www.tolearnenglish.com/exercises/exercise-english-2/exercise-english-82507.php";
-
-        this.setState({
-          exercises: exercises,
-          exercises_visible: true,
-          texts_visible : false
-        })
         break;
       case "note":
         this.setState({
@@ -434,7 +383,6 @@ export default class App extends Component {
     this.setState({
       texts_visible: true,
       authors_visible: false,
-      exercises_visible: false,
       notes_visible: false,
       config_visible: false,
     })
@@ -574,10 +522,5 @@ const styles = StyleSheet.create({
     textAlignVertical: "center",
     color: "#000000",
     backgroundColor: "#eeeeee",
-  },
-  headStyle: { 
-    height: 50,
-    alignContent: "center",
-    backgroundColor: '#ffe0f0'
   },
 });
