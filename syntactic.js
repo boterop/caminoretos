@@ -73,9 +73,20 @@ export default class Syntactic {
             'Escribamos con mayúscula inicial todo nombre propio. Ejemplos: nombres de persona, animal o cosa singularizada, nombres geográficos, apellidos, marcas comerciales, etc.',
             'Usemos organizadores metatextuales (nomencladores, subtítulos, guiones, viñetas…) para hacer nuestro texto más navegable y organizado.',
             'Recordemos, tal como lo pide la Ortografía de la RAE, que los títulos y los subtítulos de libros, artículos, capítulos, obras de arte, etc., cuando aparecen aislados, no llevan punto final.',
-            ];
+            'Cuando en medio de una oración incrustamos una pregunta, no empleamos mayúscula inicial para su primera palabra. En muchos casos, ni siquiera es necesario el signo de interrogación.',
+            'Evitemos marcar coma entre sustantivo y adjetivo.',
+            'Marquemos la coma en elipsis (omisión de una palabra o un segmento sintáctico cuyo contenido se puede recuperar por el contexto).',
+            'Podemos marcar coma –si es necesario– después de una abreviatura que termine en punto, como etc.',
+            'Usemos paréntesis para indicar el departamento o provincia al que pertenece un municipio que lo antecede en la oración.',
+            'Recordemos que, después de coma, punto y coma, punto y seguido o signos de exclamación y admiración, se deja un espacio.',
+            'Recordemos el uso de la coma enumerativa.',
+            'Recordemos las convenciones para citas mayores de 40 palabras.',
+            'Limpiemos el texto de erratas orto-tipográficas.',
+            'Evitemos el uso de mayúscula inicial para sustantivos que no sean nombres propios o que no estén iniciando oración.',
+            'Recordemos las normas generales de citación.',
+        ];
             
-            this.examples = [
+        this.examples = [
             '• Amaneció lloviendo, no sabía en qué iba a parar mi vida al día siguiente.\n'+
             '• La lectura es vida, muchos estudiantes han tropezado con docentes que les han atrofiado el placer del libro.\n',
             '• Trabajaba duro. A fin de conseguir altos ingresos.\n'+
@@ -92,7 +103,7 @@ export default class Syntactic {
             'Realicé un profundo análisis de la causa obteniendo una información seria.',
             'Las estanterías del rincón, estaban perfectamente organizadas.',
             'Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot, debido a la presentación de una estructura, ya quela intención comunicativa de estos textos es defender una opinión.',
-            'partire hoy mismo.',
+            'Partire hoy mismo.',
             'suelo ser una persona muy practica.',
             'tu lo hiciste por mi.',
             'Dimensión semántico',
@@ -110,7 +121,7 @@ export default class Syntactic {
             'La educación básica, además de orientar hacia los fines de la educación, tiene como reto generar espacios es decir buscar alternativas para mejorar los procesos.',
             '“Texto es la unidad lingüística comunicativa fundamental, producto de la actividad verbal humana, que posee carácter social”. (Bernárdez, 1982: 85).',
             'El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama fotosíntesis.',
-            'La historia de Pi es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.',
+            '"La historia de Pi" es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.',
             'Estudió todo lo que pudo sobre argumentos de ejemplificación, de analogía, de autoridad, de causa y lo aplicó a su profesión.',
             'Las medidas políticas-sociales.',
             '“Un léxico es una filosofía en tiempo real”. (Serna, 2012: 32)',
@@ -140,7 +151,7 @@ export default class Syntactic {
             'El texto argumentativo se identifica porque informa de la manera más objetiva posible una temática, donde  la persona tenga que acomodar los saberes previos a los nuevos saberes  y generar un nuevo conocimiento de manera puntual.',
             'En consecuencia, por eso.',
             'Surge, así, la pregunta de investigación: ¿Cómo conseguir que los estudiantes de primer semestre de Ingeniería Eléctrica comprendan textos argumentativos?\n'+
-            '.\n'+
+            '\n'+
             'Esta pregunta representa la preocupación central de la investigación y determina sus términos claves, a saber:\n'+
             'Didáctica, Tipología textual argumentativa, dimensiones y niveles del texto, comprensión lectora, estrategias cognitivas y metacognitivas.\n',
             'quiero una hierva para preparar una infusión.',
@@ -153,9 +164,21 @@ export default class Syntactic {
             'martha es una buena estudiante.',
             'Enfoque de investigación',
             'Tipos de personalidades.',
-            ];
+            'Este proyecto intenta responder a la pregunta sobre ¿Cómo mejorar las habilidades de expresión oral en estudiantes universitarios.',
+            'El profesor desarrolló un proceso, argumentativo con todos sus estudiantes.',
+            'Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman por su teoría de la argumentación; y a Camps por el concepto de didáctica.',
+            'Si hablamos de dificultades, riesgos, costos, etc. tenemos que incluir otros diagnósticos.',
+            'Realizó investigaciones sobre salud en Bello Antioquia.',
+            'Joaquín Pérez,eminente abogado de la región,ofreció una conferencia sobre el tema.',
+            'Revisó los informes los talleres y los ensayos.',
+            '"Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)"',
+            '• Debemos revisar la presencialidad de erratas\n'+
+            '• Investigamos sober la didáctica del lenguaje.\n',
+            'En esta investigación emplearemos la perspectiva Histórico-hermenéutica.',
+            '“Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar”',
+        ];
             
-            this.corrections = [
+        this.corrections = [
             '• Amaneció lloviendo. No sabía en qué iba a parar mi vida al día siguiente.\n'+
             '• La lectura es vida. Muchos estudiantes han tropezado con docentes que les han atrofiado el placer del libro.\n',
             '• Trabajaba duro, a fin de conseguir altos ingresos.\n'+
@@ -172,7 +195,7 @@ export default class Syntactic {
             'Realicé un profundo análisis de la causa y obtuve una información seria.',
             'Las estanterías del rincón estaban perfectamente organizadas.',
             'Se conoce como texto argumentativo, porque cumple con las condiciones de Ducrot. Esto se debe ala presentación de una estructura, en la que se advierte la intención comunicativa de defender una opinión.',
-            'partiré hoy mismo.',
+            'Partiré hoy mismo.',
             'suelo ser una persona muy práctica.',
             'tú lo hiciste por mí.',
             'Dimensión semántica',
@@ -189,8 +212,8 @@ export default class Syntactic {
             'En ese momento Adrián, el marido de mi hermana, dijo que nos ayudaría.',
             'La educación básica, además de orientar hacia los fines de la educación, tiene como reto generar espacios, es decir, buscar alternativas para mejorar los procesos.',
             '“Texto es la unidad lingüística comunicativa fundamental, producto de la actividad verbal humana, que posee carácter social” (Bernárdez, 1982: 85).',
-            'El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama fotosíntesis.',
-            'La historia de Pi es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.',
+            'El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama <i>fotosíntesis</i>.',
+            '<i>La historia de Pi</i> es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) <i>La historia de Pi</i> fue adaptada al cine y se estrenó en noviembre de 2012.',
             'Estudió todo lo que pudo sobre argumentos de ejemplificación, de analogía, de autoridad, de causa, y lo aplicó a su profesión.',
             'Las medidas político-sociales.',
             '“Un léxico es una filosofía en tiempo real” (Serna, 2012: 32).',
@@ -220,7 +243,7 @@ export default class Syntactic {
             'El texto argumentativo se identifica porque informa de la manera más objetiva posible una temática; desde esta condición la persona tiene que acomodar los saberes previos a los nuevos saberes  y generar un nuevo conocimiento de manera puntual.',
             'Uno de los dos: en consecuencia o por eso.',
             '• Surge, así, la pregunta de investigación: ¿Cómo conseguir que los estudiantes de primer semestre de Ingeniería Eléctrica comprendan textos argumentativos? Esta pregunta representa la preocupación central de la investigación y determina sus términos claves, a saber: Didáctica, Tipología textual argumentativa, dimensiones y niveles del texto, comprensión lectora, estrategias cognitivas y metacognitivas.',
-            'quiero una hierba para preparar una infusión.',
+            'Quiero una hierba para preparar una infusión.',
             '¿Por qué llegaste tarde?',
             'Fernando Vásquéz desarrolla su texto “Pregúntele al ensayista” como apoyo a los estudiantes en la escritura de textos argumentativos.',
             'Primera tarea',
@@ -230,9 +253,21 @@ export default class Syntactic {
             'Martha es una buena estudiante.',
             '1.1 Enfoque de investigación',
             'Tipos de personalidades',
-            ];
+            'Este proyecto intenta responder a la pregunta sobre cómo mejorar las habilidades de expresión oral en estudiantes universitarios.',
+            'El profesor desarrolló un proceso argumentativo con todos sus estudiantes.',
+            'Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman, por su teoría de la argumentación; y a Camps, por el concepto de didáctica.',
+            'Si hablamos de dificultades, riesgos, costos, etc., tenemos que incluir otros diagnósticos.',
+            'Realizó investigaciones sobre salud en Bello (Antioquia).',
+            'Joaquín Pérez, eminente abogado de la región, ofreció una conferencia sobre el tema.',
+            'Revisó los informes, los talleres y los ensayos.',
+            'Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)',
+            '• Debemos revisar la presencia de erratas\n'+
+            '• Investigamos sobre la didáctica del lenguaje.\n',
+            'En esta investigación emplearemos la perspectiva histórico-hermenéutica.',
+            '“Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar” (Viadero, 2007: 36).',
+        ];
             
-            this.notes = [
+        this.notes = [
             'null',
             'null',
             'null',
@@ -255,33 +290,33 @@ export default class Syntactic {
             'null',
             'Nos damos cuenta de que la expresión señalada en letras cursivas no tuvo resolución; todo lo que vino luego le agregaba condiciones y explicaciones, pero en ningún momento apareció la cláusula que la cerrara. Además, por la misma extensión se advierten ciertos descuidos que se han anotado en retos anteriores.',
             'Conviene evitar el gerundio cuando la acción que él indica es posterior a la del verbo principal (González, 2005: 35).\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'OTROS EJEMPLOS\n'+
-            '.\n'+
+            '\n'+
             'Ejemplo: Anómala constitución del yo y el superyó, estando este último localizado.\n'+
-            '.\n'+
+            '\n'+
             'Aquí el gerundio fue empleado como conector de dos ideas: la que se refiere a la anomalía y la de la localización.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: Anómala constitución del yo y el superyó; este último está localizado en.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: En este caso el maestro debe detener la explicación, siendo esta la única alternativa.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: En este caso el maestro debe detener la explicación; esta es la única alternativa.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: Se necesitan secretarias sabiendo inglés.\n'+
-            '.\n'+
+            '\n'+
             'En este caso, el gerundio toma lugar incorrectamente de una frase adjetiva.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: Se necesitan secretarias que sepan inglés.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: Se trata de una propuesta formulada por Yves Chevallard desde el campo de las matemáticas haciendo referencia a la distancia existente entre el saber erudito y saber enseñar.\n'+
-            '.\n'+
+            '\n'+
             'Otro caso de gerundio utilizado inadecuadamente como adjetivo.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: Se trata de una propuesta formulada por Yves Chevallard desde el campo de las matemáticas que hace referencia a la distancia existente entre el saber erudito y saber enseñar.\n',
             'null',
             'null',
@@ -295,7 +330,7 @@ export default class Syntactic {
             'Práctico		Esdrújula				Adjetivo calificativo\n'+
             'Practico		Grave				    Presente indicativo de practicar\n'+
             'Practicó		Aguda					Pretérito indicativo de practicar\n'+
-            '.\n'+
+            '\n'+
             'No olvidemos que el computador para estos casos guarda “un respetuoso silencioso”. En estos casos, solo el usuario sabe si la palabra debe tildarse o no. Example: tomo y tomó; hábito, habito y habitó; realizara y realizará; seria y sería; tenia y tenía; venia y venía; gráfica y grafica; amo y amó.\n',
             'TILDE DIACRÍTICA\n'+
             "aun no tengo idea de como poner esa tabla aqui :'c\n",
@@ -306,33 +341,33 @@ export default class Syntactic {
             'Curiosamente, por el mismo temor que genera el dequeísmo, muchas personas suprimen la preposición DE en oraciones que la rigen. La mejor forma de salir de la duda que esto genera es pensar en la pregunta correspondiente. En los ejemplos que vienen, sabemos que las preguntas serían: ¿DE qué estoy seguro?, ¿DE qué me doy cuenta?, ¿DE qué soy consciente? Por consiguiente, si la pregunta lleva la preposición DE, la afirmación respectiva debe conservarla. En cambio, nunca preguntamos ¿DE qué pienso?, ¿De qué digo?, ¿De qué veo?, lo que haría incorrecto añadir la preposición DE en las afirmaciones respectivas.',
             'El verbo “haber”, usado como principal en una oración (cuando aparezca solo, sin ningún otro verbo en participio a continuación), siempre es impersonal.  Por tanto, conserva la misma forma sin importar que el sustantivo que lo siga esté en singular o en plural. Por eso,  se dice había un niño o había miles de niños, hubo una fiesta o hubo miles de fiestas, habrá una elección o habrá muchísimas elecciones, etc.',
             'El “que galicado” corresponde a un giro tomado del francés –y no aceptado en el español– de la forma VERBO SER + QUE ANUNCIATIVO.  Para corregirlo, se puede cambiar el “que” por un adverbio relativo que se ajuste a la oración (donde, cuando, como…) o suprimiéndolo si se quiere.\n'+
-            '.\n'+
+            '\n'+
             'Otros ejemplos:\n'+
-            '.\n'+
+            '\n'+
             'Example: Es por eso que debes trabajar más.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: Es por eso por lo que debes trabajar más…, o mejor, por eso debes trabajar más.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Example: Es por esa razón que te enfermaste.\n'+
             '\n'+
             'Correction: Es por esa razón por la que te enfermaste, o mejor, por esa razón te enfermaste.\n',
             'Una perífrasis es un giro o rodeo. Con los verbos se presentan muchos giros que pueden cambiarse por formas simples.\n'+
-            '.\n'+
+            '\n'+
             'Otros ejemplos\n'+
-            '.\n'+
+            '\n'+
             'Ejemplo: La didáctica permite dar apoyo a los procesos.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: La didáctica apoya los procesos\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: El autor termina concluyendo de modo afirmativo.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: El autor concluye de modo afirmativo.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: El maestro debe poder combinar\n'+
-            '.\n'+
+            '\n'+
             'Corrección: El maestro debe combinar\n',
             'Ya la Nueva Ortografía de la Real Academia eliminó esta norma. Lo mismo ocurrió con la palabra “solo” en cualquiera de sus acepciones.',
             'null',
@@ -343,10 +378,10 @@ export default class Syntactic {
             'null',
             'null',
             'Sin embargo, en los demás casos, no marcamos coma antes de estas conjunciones.\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Ejemplo: Encontró exámenes, entrevistas, encuestas, y un pretest.\n'+
-            '.\n'+
+            '\n'+
             'Corrección: Encontró exámenes, entrevistas, encuestas y un pretest.\n',
             'null',
             'null',
@@ -365,10 +400,10 @@ export default class Syntactic {
             'Otra posible corrección:\n'+
             'Algunos autores abordan características propiamente textuales para esta clasificación (Halliday y Hasan, 1976, 1978; van Dijk, 1978; Bernárdez, 1982, 1995; Portolés, 1998; Cassany, 1999; Lomas, 1999).\n'+
             'Para el caso de comillas, podemos disponer de diversos tipos: las comillas angulares, también llamadas latinas o españolas (« »), las inglesas (“”) y las simples (‘’).\n'+
-            '.\n'+
-            '.\n'+
+            '\n'+
+            '\n'+
             'Example: Al encontrarse con el texto de Arturo, Marcos exclamó: “Es un terrible “esperpento” el que tengo ante mis ojos”.\n'+
-            '.\n'+
+            '\n'+
             'Correction: Al encontrarse con el texto de Arturo, Marcos exclamó: «Es un terrible “esperpento” el que tengo ante mis ojos».\n',
             'null',
             'null',
@@ -376,18 +411,18 @@ export default class Syntactic {
             'null',
             'null',
             'De la oración principal (“es posible”) se derivan dos oraciones subordinadas sujetivas: “que los alumnos mejoren su escritura” y “que esta les ayuda en sus procesos cognitivos”. Notemos cómo la segunda oración subordinada no encaja sintácticamente en la principal, porque su sujeto (“esta”) se refiere a una palabra que está en la otra subordinada (“escritura”). Propiamente esta segunda oración subordinada no se deriva de la principal, sino de la otra subordinada. Por dicha razón el nexo “y que” resulta fuera de lugar, porque pondría en el mismo nivel dos oraciones que semánticamente no lo están.\n'+
-            '.\n'+
+            '\n'+
             'Posibles correcciones:\n'+
             '• Es posible que los alumnos de secundaria mejoren su escritura; esta, por su parte, les ayuda en sus procesos cognitivos.\n'+
-            '.\n'+
+            '\n'+
             'Un caso parecido, aunque no ocurra entre oraciones subordinadas, sería el siguiente:\n'+
             '• Algunas investigaciones buscaban delinear los significados que los estudiantes han construido de los conceptos fundamentales, y otras que intentaban explicar las creencias de sus profesores.\n'+
-            '.\n'+
+            '\n'+
             'Correction: Algunas investigaciones buscaban delinear los significados que los estudiantes han construido de los conceptos fundamentales, y otras intentaban explicar las creencias de sus profesores.\n'+
-            '.\n'+
+            '\n'+
             'Otro más:\n'+
             '• En las dos investigaciones se ocupan de las estrategias de los docentes, orientadas a la resolución, más que evaluar el resultado mismo\n'+
-            '.\n'+
+            '\n'+
             'Correction: En las dos investigaciones se ocupan de las estrategias de los docentes, orientadas a la resolución, más que a la evaluación del resultado mismo\n',
             'null',
             'null',
@@ -403,59 +438,59 @@ export default class Syntactic {
             'null',
             'null',
             'No olvidemos, además, que los párrafos se separan por un espacio interlineal, y solo la última oración cierra con punto y aparte.\n'+
-            '.\n'+
+            '\n'+
             'Ejemplo:\n'+
             '• Anna Camps (2004), define la didáctica como el espacio de “la interrelación entre las actividades de aprender, las actividades de enseñar y el objeto de ambas”.\n'+
             'En el proceso de intervención actúa de manera significativa la transposición didáctica como herramienta mediadora para la enseñanza, en la que es necesario transformar, reducir, simplificar y reformular.\n'+
-            '.\n'+
+            '\n'+
             'Corrección:\n'+
             '• Anna Camps (2004), define la didáctica como el espacio de “la interrelación entre las actividades de aprender, las actividades de enseñar y el objeto de ambas”. En el proceso de intervención actúa de manera significativa la transposición didáctica como herramienta mediadora para la enseñanza, en la que es necesario transformar, reducir, simplificar y reformular.\n',
             'PALABRAS HOMÓFONAS DE USO COMÚN\n'+
-            '.\n'+
+            '\n'+
             'B-V\n'+
             'Acerbo = Áspero, cruel/ sabor acerbo\n'+
             'Acervo = Montón / acervo de riquezas\n'+
-            '.\n'+
+            '\n'+
             'Barón = Título de nobleza/ Barón de Mónaco\n'+
             'Varón = Hombre / era todo un varón\n'+
-            '.\n'+
+            '\n'+
             'Bello = Hermoso / bello paisaje\n'+
             'Vello = Pelo / cubierto de vellos\n'+
-            '.\n'+
+            '\n'+
             'Bienes = Riqueza / numerosos bienes\n'+
             'Vienes = De venir/ si vienes, te espero\n'+
-            '.\n'+
+            '\n'+
             'Bota = Calzado / bota militar\n'+
             'Vota = De votar / vota por mí\n'+
-            '.\n'+
+            '\n'+
             'Botar = Arrojar / botar la basura\n'+
             'Votar = Elegir / va a votar por él\n'+
-            '.\n'+
+            '\n'+
             'Abrasar = Quemar / fuego abrasador\n'+
             'Abrazar = Estrechar con los brazos\n'+
-            '.\n'+
+            '\n'+
             'Coser = Unir telas con hilo\n'+
             'Cocer = Cocinar / cocer los alimentos\n'+
-            '.\n'+
+            '\n'+
             'Hola = Saludo / hola, como estás?\n'+
             'Ola = Montaña de agua / surfeando en las olas\n'+
-            '.\n'+
+            '\n'+
             'Malla = Red / Tejió una malla\n'+
             'Maya = Tribu / calendario maya\n',
             '• Por  qué: Adverbio interrogativo. En preguntas directas o cuando se refiera de modo indirecto a ellas\n'+
             '¿Por qué llegaste tarde?\n'+
             'ej: No sé bien por qué te demoraste tanto\n'+
-            '.\n'+
+            '\n'+
             '• Porque: Adverbio de causa. Se emplea en respuestas como conector para indicar la razón de algo\n'+
             'También es adverbio final equivalente a “para que”\n'+
             'ej: No vino a clase porque estaba enfermo\n'+
             'Lloró mucho porque lo dejó la novia\n'+
             'Lo hago todo porque estés bien\n'+
-            '.\n'+
+            '\n'+
             '• Porqué: Sustantivo que casi siempre va precedido por el artículo EL; puede cambiarse por la causa, la razón\n'+
             'ej: Nadie supo el porqué de su tristeza\n'+
             'Todos indagaban por el porqué de su tardanza\n'+
-            '.\n'+
+            '\n'+
             '• Por que: Unión de preposición y pronombre relativo. Equivale a “por las cuales”\n'+
             'ej: Estas son las razones por que no he podido asistir.\n',
             'null',
@@ -467,7 +502,18 @@ export default class Syntactic {
             'null',
             'null',
             'null',
-            ];                           
+            'null',
+            'null',
+            'null',
+            'null',
+            'null',
+            'null',
+            'Se emplea coma para separar los miembros de una enumeración, salvo los que vengan precedidos por alguna de las conjunciones y, e, o, u.',
+            'Toda cita directa o textual de extensión igual o superior a las 40 palabras se escribe separada del párrafo regular, con sangría a la izquierda, a un solo espacio, con tamaño de letra 11 y sin comillas',
+            'null',
+            'null',
+            'Estas incluyen los datos de apellido, año y página (sin la abreviatura p.). Ahora bien, si datos de apellido y año fueron incluidos en un lugar cercano a la cita, solo es necesario poner la indicación de la página.',
+        ];            
     }
 
     getUses = () => {

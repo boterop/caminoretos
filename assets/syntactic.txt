@@ -109,8 +109,8 @@ Correction: Se conoce como texto argumentativo, porque cumple con las condicione
 Note: null#
 DIVPREGUNTAS
 Tengamos en cuenta la aplicación de las reglas generales de acentuación.#
-Example: partire hoy mismo.#
-Correction: partiré hoy mismo.#
+Example: Partire hoy mismo.#
+Correction: Partiré hoy mismo.#
 Note: TIPO / ACENTO EN / TILDE / EJEMPLO
 • Agudas / Última sílaba / Cuando terminan en vocal, n, s / Vivirás, gorrión
 • Graves / Penúltima sílaba / Cuando NO terminan en vocal, n, s / Lápiz, ángel
@@ -243,12 +243,12 @@ Note: null#
 DIVPREGUNTAS
 Recordemos que en un texto académico se recomienda el uso de  cursivas para resaltar nominalizaciones, títulos de libros, nombres de revistas, extranjerismos, latinismos o conceptos claves.#
 Example: El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama fotosíntesis.#
-Correction: El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama fotosíntesis.#
+Correction: El proceso que desarrollan las plantas, por medio del cual el dióxido de carbono se convierte en oxígeno, se llama <i>fotosíntesis</i>.#
 Note: null#
 DIVPREGUNTAS
 Aseguremos consistencia en aplicación de recursos notacionales. Por ejemplo, si marcamos en cursivas el título de una obra, deberemos marcarlas en todos los casos y no cambiar (por ejemplo, a comillas) ese recurso. Lo mismo puede ocurrir con mayúsculas iniciales, negrillas, paréntesis, etc.#
-Example: La historia de Pi es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.#
-Correction: La historia de Pi es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.#
+Example: "La historia de Pi" es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) La historia de Pi fue adaptada al cine y se estrenó en noviembre de 2012.#
+Correction: <i>La historia de Pi</i> es una novela que narra la vida de un personaje hindú y su travesía después de un naufragio. (más adelante en la redacción) <i>La historia de Pi</i> fue adaptada al cine y se estrenó en noviembre de 2012.#
 Note: null#
 DIVPREGUNTAS
 Marquemos coma delante de las conjunciones y, e, o, u cuando estén destinadas a enlazar con toda la proposición anterior, y no con el último de sus miembros.#
@@ -443,7 +443,7 @@ Corrección:
 DIVPREGUNTAS
 Revisemos casos ortográficos de palabras homófonas que el computador no corrige. Hacen parte de esta clasificación las palabras que suenan igual, pero significan y se escriben diferente, tales como: hierba (planta) y hierva (inflexión del verbo hervir). Naturalmente, la distinción entre uno y otro caso solo le compete al usuario, ya que el computador aprobará indistintamente cualquiera de los dos por encontrarse registrados en su diccionario.#
 Example: quiero una hierva para preparar una infusión.#
-Correction: quiero una hierba para preparar una infusión.#
+Correction: Quiero una hierba para preparar una infusión.#
 Note: PALABRAS HOMÓFONAS DE USO COMÚN
 .
 B-V
@@ -537,3 +537,60 @@ Recordemos, tal como lo pide la Ortografía de la RAE, que los títulos y los su
 Example: Tipos de personalidades.#
 Correction: Tipos de personalidades#
 Note: null#
+DIVPREGUNTAS
+Cuando en medio de una oración incrustamos una pregunta, no empleamos mayúscula inicial para su primera palabra. En muchos casos, ni siquiera es necesario el signo de interrogación.#
+Example: Este proyecto intenta responder a la pregunta sobre ¿Cómo mejorar las habilidades de expresión oral en estudiantes universitarios.#
+Correction: Este proyecto intenta responder a la pregunta sobre cómo mejorar las habilidades de expresión oral en estudiantes universitarios.#
+Note: null#
+DIVPREGUNTAS
+Evitemos marcar coma entre sustantivo y adjetivo.#
+Example: El profesor desarrolló un proceso, argumentativo con todos sus estudiantes.#
+Correction: El profesor desarrolló un proceso argumentativo con todos sus estudiantes.#
+Note: null#
+DIVPREGUNTAS
+Marquemos la coma en elipsis (omisión de una palabra o un segmento sintáctico cuyo contenido se puede recuperar por el contexto).#
+Example: Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman por su teoría de la argumentación; y a Camps por el concepto de didáctica.#
+Correction: Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman, por su teoría de la argumentación; y a Camps, por el concepto de didáctica.#
+Note: null#
+DIVPREGUNTAS
+Podemos marcar coma –si es necesario– después de una abreviatura que termine en punto, como etc.#
+Example: Si hablamos de dificultades, riesgos, costos, etc. tenemos que incluir otros diagnósticos.#
+Correction: Si hablamos de dificultades, riesgos, costos, etc., tenemos que incluir otros diagnósticos.#
+Note: null#
+DIVPREGUNTAS
+Usemos paréntesis para indicar el departamento o provincia al que pertenece un municipio que lo antecede en la oración.#
+Example: Realizó investigaciones sobre salud en Bello Antioquia.#
+Correction: Realizó investigaciones sobre salud en Bello (Antioquia).#
+Note: null#
+DIVPREGUNTAS
+Recordemos que, después de coma, punto y coma, punto y seguido o signos de exclamación y admiración, se deja un espacio.#
+Example: Joaquín Pérez,eminente abogado de la región,ofreció una conferencia sobre el tema.#
+Correction: Joaquín Pérez, eminente abogado de la región, ofreció una conferencia sobre el tema.#
+Note: null#
+DIVPREGUNTAS
+Recordemos el uso de la coma enumerativa.#
+Example: Revisó los informes los talleres y los ensayos.#
+Correction: Revisó los informes, los talleres y los ensayos.#
+Note: Se emplea coma para separar los miembros de una enumeración, salvo los que vengan precedidos por alguna de las conjunciones y, e, o, u.#
+DIVPREGUNTAS
+Recordemos las convenciones para citas mayores de 40 palabras.#
+Example: "Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)"#
+Correction: Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)#
+Note: Toda cita directa o textual de extensión igual o superior a las 40 palabras se escribe separada del párrafo regular, con sangría a la izquierda, a un solo espacio, con tamaño de letra 11 y sin comillas#
+DIVPREGUNTAS
+Limpiemos el texto de erratas orto-tipográficas.#
+Example: • Debemos revisar la presencialidad de erratas
+• Investigamos sober la didáctica del lenguaje.#
+Correction: • Debemos revisar la presencia de erratas
+• Investigamos sobre la didáctica del lenguaje.#
+Note: null#
+DIVPREGUNTAS
+Evitemos el uso de mayúscula inicial para sustantivos que no sean nombres propios o que no estén iniciando oración.#
+Example: En esta investigación emplearemos la perspectiva Histórico-hermenéutica.#
+Correction: En esta investigación emplearemos la perspectiva histórico-hermenéutica.#
+Note: null#
+DIVPREGUNTAS
+Recordemos las normas generales de citación.#
+Example: “Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar”#
+Correction: “Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar” (Viadero, 2007: 36).#
+Note: Estas incluyen los datos de apellido, año y página (sin la abreviatura p.). Ahora bien, si datos de apellido y año fueron incluidos en un lugar cercano a la cita, solo es necesario poner la indicación de la página.#

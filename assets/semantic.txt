@@ -48,67 +48,14 @@ b) Las proposiciones adjetivas explicativas.
 c) Cualquier comentario, explicación o precisión a algo dicho. 
 d) La mención de un autor u obra citados.#
 DIVPREGUNTAS
-Recordemos las normas generales de citación.#
-Estas incluyen los datos de apellido, año y página (sin la abreviatura p.). Ahora bien, si datos de apellido y año fueron incluidos en un lugar cercano a la cita, solo es necesario poner la indicación de la página.#
-Example: “Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar”#
-Correction: “Un análisis de más de doscientos estudios evidencia la correlación entre la enseñanza de destrezas sociales y el mejoramiento del desempeño escolar” (Viadero, 2007: 36).#
-Note: null#
-DIVPREGUNTAS
 Evitemos el uso del signo “&” (en inglés, ampersand), ya que en español se utiliza más que todo para fines comerciales y no académicos. En su lugar empleamos la conjunción “y”.#
 Example: María & Juan#
 Correction: María y Juan#
 Note: null#
 DIVPREGUNTAS
-Limpiemos el texto de erratas orto-tipográficas.#
-Example: • Debemos revisar la presencialidad de erratas
-• Investigamos sober la didáctica del lenguaje.#
-Correction: • Debemos revisar la presencia de erratas
-• Investigamos sobre la didáctica del lenguaje.#
-Note: null#
-DIVPREGUNTAS
-85- Evitemos el uso de mayúscula inicial para sustantivos que no sean nombres propios o que no estén iniciando oración.#
-Example: En esta investigación emplearemos la perspectiva Histórico-hermenéutica.#
-Correction: En esta investigación emplearemos la perspectiva histórico-hermenéutica.#
-Note: null#
-DIVPREGUNTAS
-Recordemos las convenciones para citas mayores de 40 palabras.#
-Example: "Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)"#
-Correction: Durante mucho tiempo los filósofos han presupuesto que el papel de un “enunciado” sólo puede ser “describir” algún estado de cosas, o “enunciar algún hecho”, con verdad o falsedad. Es cierto que los gramáticos han señalado siempre que no todas las “oraciones” son (usadas para formular) enunciados: tradicionalmente, junto a los enunciados (de los gramáticos) hay también preguntas y exclamaciones, y oraciones que expresan órdenes o deseos o permisiones (Austin, 1955: 3)#
-Note: Toda cita directa o textual de extensión igual o superior a las 40 palabras se escribe separada del párrafo regular, con sangría a la izquierda, a un solo espacio, con tamaño de letra 11 y sin comillas#
-DIVPREGUNTAS
 Revisemos la construcción de oraciones, pues la inserción de ciertos elementos conectivos –sobre  todo la conjunción “que”– puede enredar su sintaxis y el sentido mismo.#
 Example: Es determinante que el enfoque cualitativo, ya que le permite al investigador dirigir el tratamiento de los datos, de acuerdo con las experiencias, significados, intereses, expectativas y cosmovisiones de grupos humanos diversos.#
 Correction: Es determinante el enfoque cualitativo, ya que le permite al investigador dirigir el tratamiento de los datos, de acuerdo con las experiencias, significados, intereses, expectativas y cosmovisiones de grupos humanos diversos.#
-Note: null#
-DIVPREGUNTAS
-Recordemos el uso de la coma enumerativa.#
-Example: Revisó los informes los talleres y los ensayos.#
-Correction: Revisó los informes, los talleres y los ensayos.#
-Note: Se emplea coma para separar los miembros de una enumeración, salvo los que vengan precedidos por alguna de las conjunciones y, e, o, u.#
-DIVPREGUNTAS
-Recordemos que, después de coma, punto y coma, punto y seguido o signos de exclamación y admiración, se deja un espacio.#
-Example: Joaquín Pérez,eminente abogado de la región,ofreció una conferencia sobre el tema.#
-Correction: Joaquín Pérez, eminente abogado de la región, ofreció una conferencia sobre el tema.#
-Note: null#
-DIVPREGUNTAS
-Usemos paréntesis para indicar el departamento o provincia al que pertenece un municipio que lo antecede en la oración.#
-Example: Realizaó investigaciones sobre salud en Bello Antioquia.#
-Correction: Realizó investigaciones sobre salud en Bello (Antioquia).#
-Note: null#
-DIVPREGUNTAS
-Podemos marcar coma –si es necesario– después de una abreviatura que termine en punto, como etc.#
-Example: Si hablamos de dificultades, riesgos, costos, etc. tenemos que incluir otros diagnósticos.#
-Correction: Si hablamos de dificultades, riesgos, costos, etc., tenemos que incluir otros diagnósticos.#
-Note: null#
-DIVPREGUNTAS
-Marquemos la coma en elipsis (omisión de una palabra o un segmento sintáctico cuyo contenido se puede recuperar por el contexto).#
-Example: Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman por su teoría de la argumentación; y a Camps por el concepto de didáctica.#
-Correction: Para el marco teórico acudimos a Jakobson por las funciones del lenguaje; a Perelman, por su teoría de la argumentación; y a Camps, por el concepto de didáctica.#
-Note: null#
-DIVPREGUNTAS
-Evitemos marcar coma entre sustantivo y adjetivo.#
-Example: El profesor desarrolló un proceso, argumentativo con todos sus estudiantes.#
-Correction: El profesor desarrolló un proceso argumentativo con todos sus estudiantes.#
 Note: null#
 DIVPREGUNTAS
 Recordemos la diferencia entre “entorno” y “en torno”.#
@@ -136,9 +83,4 @@ Note: • La expresión “a medida que” significa “al tiempo que”, “a l
 Cuando usemos rayas, evitemos la separación de la palabra inicial y final a ellas y evitemos la mayúscula inicial, a no ser que se trate de un nombre propio.#
 Example: Este tema de conversación – Normalmente desarrrollado entre adultos – es digno de investigación académica.#
 Correction: Este tema de conversación –normalmente desarrrollado entre adultos– es digno de investigación académica.#
-Note: null#
-DIVPREGUNTAS
-Cuando en medio de una oración incrustamos una pregunta, no empleamos mayúscula inicial para su primera palabra. En muchos casos, ni siquiera es necesario el signo de interrogación.#
-Example: Este proyecto intenta responder a la pregunta sobre ¿Cómo mejorar las habilidades de expresión oral en estudiantes universitarios.#
-Correction: Este proyecto intenta responder a la pregunta sobre cómo mejorar las habilidades de expresión oral en estudiantes universitarios.#
 Note: null#
