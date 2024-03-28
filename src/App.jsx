@@ -9,8 +9,6 @@ import {
 } from 'react-native';
 import {
 	ColorsConst,
-	Pragmatic,
-	Professor,
 	Semantic,
 	Syntactic,
 	TextConstants,
@@ -19,8 +17,6 @@ import {
 import StorageService from './services/StorageService';
 import HomeStyle from './style/Home';
 import Slider from '@react-native-community/slider';
-
-let professorTable;
 
 const App = () => {
 	const [customBackground, setCustomBackground] = useState('#ffffff');
@@ -41,23 +37,6 @@ const App = () => {
 		if (isInitialMount.current) {
 			isInitialMount.current = false;
 
-			professorTable = new Professor().getMatrix().map(eachItem => (
-				<View style={{ flexDirection: 'row' }}>
-					<Text
-						onPress={() => goToChallenge(eachItem[0])}
-						selectable
-						style={getProfessorStyle(eachItem[1])}>
-						{eachItem[0]}
-					</Text>
-					<Text
-						onPress={() => goToChallenge(eachItem[0])}
-						selectable
-						style={getProfessorStyle(eachItem[1])}>
-						{eachItem[1]}
-					</Text>
-				</View>
-			));
-
 			StorageService.load('background').then(background => {
 				background = background === undefined ? '#ffffff' : background;
 				setCustomBackground(background);
@@ -65,12 +44,7 @@ const App = () => {
 			});
 		}
 
-		typeConst =
-			textType == 'SY'
-				? new Syntactic()
-				: textType == 'P'
-				? new Pragmatic()
-				: new Semantic();
+		typeConst = textType == 'SY' ? new Syntactic() : new Semantic();
 
 		let num = pageNumber;
 
@@ -113,18 +87,12 @@ const App = () => {
 				setPageNumber(parseInt(pageNumber) + 1);
 				setVisible(ViewsConst.TEXT);
 				break;
-			case 'professor':
-				setVisible(ViewsConst.PROFESSOR);
-				break;
 			case 'config':
 				setVisible(ViewsConst.CONFIG);
 				// getSliderValue()
 				break;
 			case 'authors':
 				setVisible(ViewsConst.AUTHORS);
-				break;
-			case 'exercises':
-				setVisible(ViewsConst.EXERCISES);
 				break;
 			case 'note':
 				setVisible(ViewsConst.NOTES);
@@ -171,14 +139,6 @@ const App = () => {
 			);
 		} else if (visible === ViewsConst.AUTHORS) {
 			return <Text style={HomeStyle.authors}>{TextConstants.authors}</Text>;
-		} else if (visible === ViewsConst.EXERCISES) {
-			return (
-				<ScrollView style={HomeStyle.scrollView}>
-					<Text style={{ fontSize: 13, color: '#222222' }} selectable>
-						{TextConstants.exercises}
-					</Text>
-				</ScrollView>
-			);
 		} else if (visible === ViewsConst.NOTES) {
 			return (
 				<ScrollView style={HomeStyle.scrollView}>
@@ -187,8 +147,6 @@ const App = () => {
 					</Text>
 				</ScrollView>
 			);
-		} else if (visible === ViewsConst.PROFESSOR) {
-			return <ScrollView>{professorTable}</ScrollView>;
 		} else if (visible === ViewsConst.CONFIG) {
 			return (
 				<View
@@ -210,14 +168,6 @@ const App = () => {
 			setTextType(item.split('#')[0]);
 			setPageNumber(item.split('#')[1]);
 			setVisible(ViewsConst.TEXT);
-		}
-	};
-
-	const getProfessorStyle = item => {
-		if (item == 'DESCRIPTION') {
-			return HomeStyle.professorTitle;
-		} else {
-			return HomeStyle.professor;
 		}
 	};
 
@@ -345,18 +295,8 @@ const App = () => {
 							</View>
 						</View>
 						<Button
-							onPress={() => buttonActionPerformed('professor')}
-							title='professor'
-							color={ColorsConst.button}
-						/>
-						<Button
 							onPress={() => buttonActionPerformed('authors')}
-							title='authors'
-							color={ColorsConst.button}
-						/>
-						<Button
-							onPress={() => buttonActionPerformed('exercises')}
-							title='exercises'
+							title='autores'
 							color={ColorsConst.button}
 						/>
 						<Button
@@ -373,14 +313,6 @@ const App = () => {
 								<Button
 									onPress={() => changeChallenge('SY')}
 									title={'syntactic\nchallenges'}
-									style={HomeStyle.topButtons}
-									color='#3C8515'
-								/>
-							</View>
-							<View style={HomeStyle.topButtons}>
-								<Button
-									onPress={() => changeChallenge('P')}
-									title={'pragmatic\nchallenges'}
 									style={HomeStyle.topButtons}
 									color='#3C8515'
 								/>

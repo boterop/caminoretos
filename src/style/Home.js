@@ -36,7 +36,6 @@ const HomeStyle = StyleSheet.create({
 		flexDirection: 'column',
 		height: height - 25,
 		width: width - 100,
-		//backgroundColor: background
 	},
 	titles: {
 		height: 30,
@@ -86,7 +85,7 @@ const HomeStyle = StyleSheet.create({
 		backgroundColor: '#e3aa1a',
 	},
 	topButtons: {
-		width: (width - 100) / 3,
+		width: (width - 100) / 2,
 		height: 50,
 	},
 	startedButton: {
@@ -101,25 +100,6 @@ const HomeStyle = StyleSheet.create({
 		height: 50,
 		alignContent: 'center',
 		backgroundColor: '#ffe0f0',
-	},
-	professor: {
-		width: (width - 100) / 2,
-		height: 35,
-		fontSize: 13,
-		textAlign: 'center',
-		textAlignVertical: 'center',
-		color: '#222222',
-		borderWidth: 2,
-		borderColor: '#000000',
-	},
-	professorTitle: {
-		width: (width - 100) / 2,
-		textAlign: 'center',
-		textAlignVertical: 'center',
-		borderWidth: 2,
-		backgroundColor: '#5ff',
-		borderColor: '#000000',
-		fontWeight: 'bold',
 	},
 });
 
