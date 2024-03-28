@@ -64,3 +64,9 @@ yarn-error.log
 
 # testing
 /coverage
+
+# Env
+.env
+
+# Build cache
+/android/app/src/main/assets/*
