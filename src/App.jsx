@@ -143,19 +143,6 @@ const App = () => {
 					</Text>
 				</ScrollView>
 			);
-		} else if (visible === ViewsConst.CONFIG) {
-			return (
-				<View
-					style={{ flex: 1, alignItems: 'stretch', justifyContent: 'center' }}>
-					<Slider
-						value={sliderValue}
-						onValueChange={value => sliderValueChange(value)}
-					/>
-					<Text style={{ paddingLeft: 10, color: '#222222' }}>
-						{TextConstants.settings}: {customBackground}
-					</Text>
-				</View>
-			);
 		}
 	};
 

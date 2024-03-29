@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native';
 
-var { height, width } = Dimensions.get('window');
+const { height, width } = Dimensions.get('window');
 
 const HomeStyle = StyleSheet.create({
 	container: {
@@ -70,6 +70,7 @@ const HomeStyle = StyleSheet.create({
 	notes: {
 		height: height - 75,
 		color: '#222222',
+		marginLeft: 10,
 	},
 	authors: {
 		textAlign: 'center',
