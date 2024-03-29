@@ -87,10 +87,6 @@ const App = () => {
 				setPageNumber(parseInt(pageNumber) + 1);
 				setVisible(ViewsConst.TEXT);
 				break;
-			case 'config':
-				setVisible(ViewsConst.CONFIG);
-				// getSliderValue()
-				break;
 			case 'authors':
 				setVisible(ViewsConst.AUTHORS);
 				break;
@@ -104,7 +100,7 @@ const App = () => {
 		hasNote ? (
 			<Button
 				onPress={() => buttonActionPerformed('note')}
-				title='note'
+				title='notas'
 				color={ColorsConst.button}
 				accessibilityLabel='Note Button'
 			/>
@@ -147,32 +143,11 @@ const App = () => {
 					</Text>
 				</ScrollView>
 			);
-		} else if (visible === ViewsConst.CONFIG) {
-			return (
-				<View
-					style={{ flex: 1, alignItems: 'stretch', justifyContent: 'center' }}>
-					<Slider
-						value={sliderValue}
-						onValueChange={value => sliderValueChange(value)}
-					/>
-					<Text style={{ paddingLeft: 10, color: '#222222' }}>
-						{TextConstants.settings}: {customBackground}
-					</Text>
-				</View>
-			);
-		}
-	};
-
-	const goToChallenge = item => {
-		if (item.includes('#')) {
-			setTextType(item.split('#')[0]);
-			setPageNumber(item.split('#')[1]);
-			setVisible(ViewsConst.TEXT);
 		}
 	};
 
 	const getSliderValue = hex => {
-		var num = hex.substring(hex.length - 2, hex.length);
+		let num = hex.substring(hex.length - 2, hex.length);
 
 		if (!isNumber(num)) {
 			switch (num) {
@@ -201,8 +176,8 @@ const App = () => {
 	};
 
 	const sliderValueChange = value => {
-		var v = parseInt(value * 105);
-		var hex = '#ffff';
+		const v = parseInt(value * 105);
+		let hex = '#ffff';
 
 		if (v >= 100) {
 			switch (v) {
@@ -225,12 +200,10 @@ const App = () => {
 					hex += 'ff';
 					break;
 			}
+		} else if (v < 10) {
+			hex += '0' + v;
 		} else {
-			if (v < 10) {
-				hex += '0' + v;
-			} else {
-				hex += '' + v;
-			}
+			hex += '' + v;
 		}
 
 		setSliderValue(value);
@@ -254,13 +227,7 @@ const App = () => {
 	return (
 		<View style={[HomeStyle.container, { backgroundColor: customBackground }]}>
 			<StatusBar hidden />
-			{!isStarted ? (
-				<Text
-					onPress={() => setIsStarted(true)}
-					style={HomeStyle.startedButton}>
-					{TextConstants.start}
-				</Text>
-			) : (
+			{isStarted ? (
 				<View style={HomeStyle.box}>
 					<View style={HomeStyle.boxLeft}>
 						<TextInput
@@ -299,11 +266,6 @@ const App = () => {
 							title='autores'
 							color={ColorsConst.button}
 						/>
-						<Button
-							onPress={() => buttonActionPerformed('config')}
-							title='config'
-							color={ColorsConst.button}
-						/>
 						{_noteButton()}
 					</View>
 					<View
@@ -312,7 +274,7 @@ const App = () => {
 							<View style={HomeStyle.topButtons}>
 								<Button
 									onPress={() => changeChallenge('SY')}
-									title={'syntactic\nchallenges'}
+									title={'retos\nsintacticos'}
 									style={HomeStyle.topButtons}
 									color='#3C8515'
 								/>
@@ -320,7 +282,7 @@ const App = () => {
 							<View style={HomeStyle.topButtons}>
 								<Button
 									onPress={() => changeChallenge('SE')}
-									title={'semantic\nchallenges'}
+									title={'retos\nsemanticos'}
 									style={HomeStyle.topButtons}
 									color='#3C8515'
 								/>
@@ -329,6 +291,12 @@ const App = () => {
 						{_texts()}
 					</View>
 				</View>
+			) : (
+				<Text
+					onPress={() => setIsStarted(true)}
+					style={HomeStyle.startedButton}>
+					{TextConstants.start}
+				</Text>
 			)}
 		</View>
 	);
