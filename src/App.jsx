@@ -19,7 +19,6 @@ import HomeStyle from './style/Home';
 import Slider from '@react-native-community/slider';
 
 const App = () => {
-	const [customBackground, setCustomBackground] = useState('#ffffff');
 	const [isStarted, setIsStarted] = useState(false);
 	const [textType, setTextType] = useState('SY');
 	const [use, setUse] = useState('');
@@ -29,21 +28,8 @@ const App = () => {
 	const [hasNote, setHasNote] = useState(false);
 	const [pageNumber, setPageNumber] = useState(0);
 	const [visible, setVisible] = useState('text');
-	const [sliderValue, setSliderValue] = useState();
-
-	const isInitialMount = useRef(true);
 
 	useEffect(() => {
-		if (isInitialMount.current) {
-			isInitialMount.current = false;
-
-			StorageService.load('background').then(background => {
-				background = background === undefined ? '#ffffff' : background;
-				setCustomBackground(background);
-				setSliderValue(getSliderValue(background));
-			});
-		}
-
 		typeConst = textType == 'SY' ? new Syntactic() : new Semantic();
 
 		let num = pageNumber;
@@ -116,7 +102,7 @@ const App = () => {
 						</Text>
 					</ScrollView>
 
-					<Text style={HomeStyle.titles}>Example:</Text>
+					<Text style={HomeStyle.titles}>Ejemplo:</Text>
 
 					<ScrollView style={HomeStyle.scrollView}>
 						<Text style={HomeStyle.example} selectable>
@@ -124,7 +110,7 @@ const App = () => {
 						</Text>
 					</ScrollView>
 
-					<Text style={HomeStyle.titles}>Correction:</Text>
+					<Text style={HomeStyle.titles}>Corrección:</Text>
 
 					<ScrollView style={HomeStyle.scrollView}>
 						<Text style={HomeStyle.correction} selectable>
@@ -146,70 +132,6 @@ const App = () => {
 		}
 	};
 
-	const getSliderValue = hex => {
-		let num = hex.substring(hex.length - 2, hex.length);
-
-		if (!isNumber(num)) {
-			switch (num) {
-				case 'aa':
-					num = '100';
-					break;
-				case 101:
-					num = '101';
-					break;
-				case 102:
-					num = '102';
-					break;
-				case 103:
-					num = '103';
-					break;
-				case 104:
-					num = '104';
-					break;
-				default:
-					num = '105';
-					break;
-			}
-		}
-
-		return parseFloat(parseInt(num) / 105);
-	};
-
-	const sliderValueChange = value => {
-		const v = parseInt(value * 105);
-		let hex = '#ffff';
-
-		if (v >= 100) {
-			switch (v) {
-				case 100:
-					hex += 'aa';
-					break;
-				case 101:
-					hex += 'bb';
-					break;
-				case 102:
-					hex += 'cc';
-					break;
-				case 103:
-					hex += 'dd';
-					break;
-				case 104:
-					hex += 'ee';
-					break;
-				default:
-					hex += 'ff';
-					break;
-			}
-		} else if (v < 10) {
-			hex += '0' + v;
-		} else {
-			hex += '' + v;
-		}
-
-		setSliderValue(value);
-		setCustomBackground(hex);
-	};
-
 	const onChangeText = text => {
 		if (isNumber(text)) {
 			let num = parseInt(text);
@@ -225,7 +147,7 @@ const App = () => {
 	};
 
 	return (
-		<View style={[HomeStyle.container, { backgroundColor: customBackground }]}>
+		<View style={HomeStyle.container}>
 			<StatusBar hidden />
 			{isStarted ? (
 				<View style={HomeStyle.box}>
@@ -236,7 +158,6 @@ const App = () => {
 								width: 100,
 								borderColor: 'black',
 								borderBottomWidth: 2,
-								backgroundColor: customBackground,
 								textAlign: 'center',
 								color: '#000000',
 								fontSize: 30,
@@ -268,8 +189,7 @@ const App = () => {
 						/>
 						{_noteButton()}
 					</View>
-					<View
-						style={[HomeStyle.boxRight, { backgroundColor: customBackground }]}>
+					<View style={HomeStyle.boxRight}>
 						<View style={HomeStyle.boxTop}>
 							<View style={HomeStyle.topButtons}>
 								<Button
