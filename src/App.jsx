@@ -14,9 +14,7 @@ import {
 	TextConstants,
 	ViewsConst,
 } from './constants';
-import StorageService from './services/StorageService';
 import HomeStyle from './style/Home';
-import Slider from '@react-native-community/slider';
 
 const App = () => {
 	const [isStarted, setIsStarted] = useState(false);
