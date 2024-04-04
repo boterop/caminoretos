@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.2 (04.04.2024)
+
+- Fix gray background.
+
 ## 2.0.1 (29.03.2024)
 
 - Texts in spanish and unnecessary features removed.
