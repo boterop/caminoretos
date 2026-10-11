@@ -332,8 +332,7 @@ export default class Syntactic {
 				'Practicó		Aguda					Pretérito indicativo de practicar\n' +
 				'\n' +
 				'No olvidemos que el computador para estos casos guarda “un respetuoso silencioso”. En estos casos, solo el usuario sabe si la palabra debe tildarse o no. Example: tomo y tomó; hábito, habito y habitó; realizara y realizará; seria y sería; tenia y tenía; venia y venía; gráfica y grafica; amo y amó.\n',
-			'TILDE DIACRÍTICA\n' +
-				"aun no tengo idea de como poner esa tabla aqui :'c\n",
+			'null',
 			'null',
 			'null',
 			'null',

@@ -132,8 +132,7 @@ Revisemos la tilde diacrítica.
 A la regla general de que “los monosílabos no se tildan”, surge una excepción importante que viene dada por palabras con igual escritura y pronunciación que llevan tilde o no, según su función sintáctica o semántica.#
 Example: tu lo hiciste por mi.#
 Correction: tú lo hiciste por mí.#
-Note: TILDE DIACRÍTICA
-aun no tengo idea de como poner esa tabla aqui :'c#
+Note: null#
 DIVPREGUNTAS
 Revisemos la concordancia sustantivo-adjetivo.#
 Example: Dimensión semántico#
