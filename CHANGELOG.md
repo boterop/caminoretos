@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3 (11.10.2026)
+
+- Fix typo in "Note" screen.
+
 ## 2.0.2 (04.04.2024)
 
 - Fix gray background.
